@@ -1,2 +1,10 @@
-Hello , Team this is all about python 
- we are very exicited to be parts of python
+
+29-Nov-2025
+
+We are working on internal issues related to CMIS.
+
+Hari and Kavya are looking into line-level changes requested by Amed.
+
+BCCT activities include supporting the Go-Live, monitoring, resolving post-Go-Live issues, and troubleshooting.
+
+SIT6 has started, and BCCT is actively participating in the process.
