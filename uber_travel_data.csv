@@ -1,0 +1,101 @@
+sourceId,Source,destinationId,Destination,travel_time
+128,Los Angeles,264,Los Angeles,39
+136,San Francisco,231,Houston,117
+100,Houston,285,New York,77
+187,Boston,224,Seattle,60
+148,San Francisco,248,San Francisco,19
+141,Chicago,268,Los Angeles,66
+189,Houston,264,Atlanta,94
+169,Atlanta,288,Atlanta,75
+192,Los Angeles,266,Miami,76
+156,Boston,276,Los Angeles,89
+161,Atlanta,260,New York,42
+137,Miami,250,Los Angeles,54
+178,Los Angeles,234,Boston,99
+1,Seattle,289,Atlanta,1
+1,New York,232,Houston,1
+1,Houston,200,Chicago,1
+1,Dallas,235,Atlanta,1
+1,Houston,209,Atlanta,1
+1,San Francisco,212,Houston,1
+196,San Francisco,225,Miami,73
+127,Los Angeles,225,Los Angeles,34
+163,Boston,205,Los Angeles,30
+189,Seattle,202,San Francisco,109
+190,Dallas,275,Atlanta,83
+112,Boston,251,New York,14
+150,New York,245,Seattle,61
+188,New York,230,Seattle,109
+190,Boston,229,San Francisco,24
+120,Los Angeles,261,Los Angeles,35
+129,Houston,280,Seattle,53
+171,Los Angeles,282,Miami,35
+174,Seattle,237,Atlanta,111
+176,Atlanta,288,Seattle,45
+123,Boston,237,San Francisco,91
+175,San Francisco,209,Seattle,54
+163,Seattle,208,Miami,104
+139,New York,215,Boston,86
+151,Chicago,271,Atlanta,35
+138,Seattle,283,Los Angeles,72
+178,Atlanta,209,San Francisco,104
+182,San Francisco,203,Boston,59
+164,Chicago,266,San Francisco,51
+136,Chicago,216,Chicago,13
+124,Boston,298,Boston,70
+150,Atlanta,232,Los Angeles,89
+194,Dallas,240,Boston,25
+180,Los Angeles,268,Chicago,19
+119,Seattle,207,Houston,57
+191,New York,290,Los Angeles,38
+190,Chicago,289,Miami,190
+116,Chicago,242,Seattle,116
+178,Houston,286,Chicago,178
+105,Los Angeles,232,Miami,105
+191,New York,220,Los Angeles,191
+199,Boston,246,Houston,199
+120,Los Angeles,249,Dallas,120
+119,Chicago,293,San Francisco,119
+141,Atlanta,244,Los Angeles,141
+104,Los Angeles,294,Los Angeles,104
+186,New York,278,Dallas,19
+117,San Francisco,239,Seattle,91
+140,Los Angeles,280,Seattle,38
+117,Dallas,279,San Francisco,65
+174,Atlanta,213,Atlanta,78
+176,Houston,223,Houston,27
+196,Atlanta,275,Seattle,31
+148,Miami,280,New York,105
+169,Houston,298,Houston,15
+164,Los Angeles,248,Chicago,14
+173,Atlanta,279,Chicago,14
+130,Seattle,208,Dallas,92
+156,Houston,298,Seattle,52
+120,New York,275,New York,92
+128,Atlanta,223,San Francisco,81
+160,Dallas,268,Atlanta,65
+191,Seattle,221,Seattle,39
+187,Dallas,223,Dallas,102
+156,Boston,222,New York,49
+102,San Francisco,266,Chicago,79
+147,Boston,222,San Francisco,52
+170,Atlanta,228,Los Angeles,87
+129,San Francisco,251,San Francisco,111
+112,Seattle,260,New York,119
+183,Dallas,254,Chicago,54
+149,New York,202,San Francisco,72
+193,Houston,276,Chicago,55
+184,Dallas,252,Chicago,113
+171,New York,208,Houston,16
+112,Boston,293,Seattle,11
+123,Atlanta,288,Los Angeles,70
+116,San Francisco,231,Dallas,52
+103,Chicago,256,San Francisco,107
+156,Los Angeles,232,Houston,111
+197,New York,246,Seattle,111
+159,Boston,289,Dallas,108
+164,Boston,275,Houston,91
+183,Miami,241,Miami,44
+116,Houston,290,Atlanta,106
+130,Boston,258,San Francisco,52
+115,Dallas,252,Los Angeles,33
