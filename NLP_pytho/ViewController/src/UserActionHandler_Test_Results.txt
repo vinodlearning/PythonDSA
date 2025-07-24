@@ -1,0 +1,127 @@
+INPUT | CORRECTED_INPUT | QUERY_TYPE | ACTION_TYPE | DISPLAY_ENTITIES | FILTER_ENTITIES | SQL_QUERY
+===============================================================================================================================================
+What is the contract number for contract ABC123? | what is the contract number for contract abc123 | CONTRACTS | contracts_list | [
+    CONTRACT_NAME
+  ] | [] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS
+Can you show me the parts for contract XYZ789? | can you show me the parts for contract xyz789 | PARTS | parts_by_part_number | [
+    CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, STATUS, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME
+  ] | [] | SELECT CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, STATUS, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME FROM CRM_PARTS_FINAL
+Which contracts have status 'ACTIVE'? | Which contracts have status 'ACTIVE'? | CONTRACTS | contracts_by_filter | [
+    CONTRACT_NAME
+  ] | [STATUS=ACTIVE] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS WHERE STATUS = 'ACTIVE'
+Show me failed parts for contract DEF456 | show me failed parts for contract def456 | FAILED_PARTS | parts_failed_by_filter | [
+    CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, STATUS, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER
+  ] | [] | SELECT CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, STATUS, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER FROM CRM_PARTS_ERROS_FINAL
+What are the details of part number P001? | What are the details of part number P001? | PARTS | parts_by_part_number | [
+    INVOICE_PART_NUMBER, PRICE, LEAD_TIME, MOQ
+  ] | [] | SELECT INVOICE_PART_NUMBER, PRICE, LEAD_TIME, MOQ FROM CRM_PARTS_FINAL
+Show contract ABC123 | Show contract ABC123 | CONTRACTS | contracts_list | [
+    CONTRACT_NAME
+  ] | [] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS
+Display parts for XYZ789 | display parts for xyz789 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+List active contracts | List active contracts | CONTRACTS | contracts_by_filter | [
+    CONTRACT_NAME
+  ] | [STATUS=ACTIVE] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS WHERE STATUS = 'ACTIVE'
+Get failed parts DEF456 | Get failed parts DEF456 | FAILED_PARTS | parts_failed_by_filter | [
+    PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER
+  ] | [] | SELECT PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER FROM CRM_PARTS_ERROS_FINAL
+Find part P001 | Find part P001 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+Show ctrct ABC123 | Show ctrct ABC123 | HELP | HELP_CONTRACT_CREATE_USER | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+Display prts for XYZ789 | display parts for xyz789 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+List actv cntrcts | List actv cntrcts | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [STATUS=ACTIVE] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS WHERE STATUS = 'ACTIVE'
+Get fld prts DEF456 | get fld parts def456 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+Find prt P001 | find part p001 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+ctrct ABC123 | ctrct ABC123 | CONTRACTS | contracts_list | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+prts XYZ789 | parts xyz789 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+cntrcts | cntrcts | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+fld prts | fld parts | PARTS | parts_by_filter | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+prt P001 | part p001 | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+ABC123 contract show | ABC123 contract show | CONTRACTS | contracts_list | [
+    CONTRACT_NAME
+  ] | [] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS
+XYZ789 parts display | XYZ789 parts display | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+Active contracts list | Active contracts list | CONTRACTS | contracts_by_filter | [
+    CONTRACT_NAME
+  ] | [STATUS=ACTIVE] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS WHERE STATUS = 'ACTIVE'
+DEF456 failed parts get | DEF456 failed parts get | FAILED_PARTS | parts_failed_by_filter | [
+    PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER
+  ] | [] | SELECT PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER FROM CRM_PARTS_ERROS_FINAL
+P001 part find | P001 part find | PARTS | parts_by_part_number | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+Contract | Contract | CONTRACTS | contracts_list | [
+    CONTRACT_NAME
+  ] | [] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS
+Parts | Parts | PARTS | parts_by_filter | [
+    PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION
+  ] | [] | SELECT PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, ITEM_CLASSIFICATION FROM CRM_PARTS_FINAL
+Failed | Failed | FAILED_PARTS | contracts_search | [
+    PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER
+  ] | [] | SELECT PART_NUMBER, ERROR_COLUMN, REASON, LOADED_CP_NUMBER FROM CRM_CONTRACTS
+ABC123 | ABC123 | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+P001 | P001 | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+c | c | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+p | p | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+f | f | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+a | a | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+x | x | CONTRACTS | contracts_search | [
+    AWARD_NUMBER
+  ] | [] | SELECT AWARD_NUMBER FROM CRM_CONTRACTS
+Please could you kindly show me the complete detailed information about the contract with number ABC123 including all its associated parts and status information | Please could you kindly show me the complete detailed information about the contract with number ABC123 including all its associated parts and status information | PARTS | parts_by_part_number | [
+    CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, STATUS, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, PAYMENT_TERMS, INCOTERMS
+  ] | [] | SELECT CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, STATUS, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME, PAYMENT_TERMS, INCOTERMS FROM CRM_PARTS_FINAL
+I would like to request that you display for me all the parts that are associated with the contract identified by the number XYZ789 and show me their current status | i would like to request that you display for me all the parts that are associated with the contract identified by the number xyz789 and show me their current status | PARTS | parts_by_part_number | [
+    STATUS, CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME
+  ] | [] | SELECT STATUS, CONTRACT_NAME, CUSTOMER_NAME, EFFECTIVE_DATE, EXPIRATION_DATE, INVOICE_PART_NUMBER, PRICE, MOQ, UOM, LEAD_TIME FROM CRM_PARTS_FINAL
+How do I create a contract? | How do I create a contract? | HELP | HELP_CONTRACT_CREATE_USER | [] | [] | SELECT * FROM CRM_CONTRACTS
+Help me create a contract | Help me create a contract | HELP | HELP_CONTRACT_CREATE_USER | [] | [] | SELECT * FROM CRM_CONTRACTS
+I need help creating a contract | I need help creating a contract | HELP | HELP_CONTRACT_CREATE_USER | [] | [] | SELECT * FROM CRM_CONTRACTS
+What are the steps to create a contract? | What are the steps to create a contract? | CONTRACTS | contracts_list | [
+    CONTRACT_NAME
+  ] | [] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS
+Can you help me create a contract? | Can you help me create a contract? | HELP | HELP_CONTRACT_CREATE_USER | [] | [] | SELECT * FROM CRM_CONTRACTS
+Create contract for me | create contract for me | HELP | HELP_CONTRACT_CREATE_BOT | [] | [] | SELECT * FROM CRM_CONTRACTS
+Make a contract | Make a contract | HELP | HELP_CONTRACT_CREATE_BOT | [] | [] | SELECT * FROM CRM_CONTRACTS
+Generate contract | Generate contract | HELP | HELP_CONTRACT_CREATE_USER | [] | [] | SELECT * FROM CRM_CONTRACTS
+Build contract | Build contract | HELP | HELP_CONTRACT_CREATE_USER | [
+    CONTRACT_NAME
+  ] | [] | SELECT CONTRACT_NAME FROM CRM_CONTRACTS
+Set up contract | Set up contract | HELP | HELP_CONTRACT_CREATE_USER | [] | [] | SELECT * FROM CRM_CONTRACTS

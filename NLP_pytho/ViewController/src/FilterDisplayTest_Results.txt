@@ -1,0 +1,2355 @@
+=== FILTER AND DISPLAY ENTITIES TEST RESULTS ===
+
+=== MAIN QUERY LIST TEST ===
+Test 1: show project type,status for 123456
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 123456
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 123456
+  Display Entities (2):
+    - 
+    STATUS
+    - PROJECT_TYPE
+  
+  Validation:
+    No errors
+  Spell Correction: show project type,status for 123456
+  ==================================================================================
+Test 2: what's the CONTRACT_NAME,CUSTOMER_NAME for 789012?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 789012
+  Part Number: _NAME
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 789012
+  Display Entities (2):
+    - 
+    CONTRACT_NAME
+    - CUSTOMER_NAME
+  
+  Validation:
+    No errors
+  Spell Correction: what's the CONTRACT_NAME,CUSTOMER_NAME for 789012?
+  ==================================================================================
+Test 3: display EFFECTIVE_DATE,EXPIRATION_DATE of 345678
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 345678
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 345678
+  Display Entities (2):
+    - 
+    EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: display EFFECTIVE_DATE,EXPIRATION_DATE of 345678
+  ==================================================================================
+Test 4: give me PAYMENT_TERMS,INCOTERMS for contract 901234
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 901234
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 901234
+  Display Entities (2):
+    - 
+    INCOTERMS
+    - PAYMENT_TERMS
+  
+  Validation:
+    No errors
+  Spell Correction: give me PAYMENT_TERMS,INCOTERMS for contract 901234
+  ==================================================================================
+Test 5: show me STATUS,CONTRACT_TYPE for contract 567890
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 567890
+  Part Number: _TYPE
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 567890
+  Display Entities (2):
+    - 
+    STATUS
+    - CONTRACT_TYPE
+  
+  Validation:
+    No errors
+  Spell Correction: show me STATUS,CONTRACT_TYPE for contract 567890
+  ==================================================================================
+Test 6: what are the PRICE_EXPIRATION_DATE,CONTRACT_LENGTH values for 112233?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 112233
+  Part Number: _LENGTH
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 112233
+  Display Entities (2):
+    - 
+    PRICE_EXPIRATION_DATE
+    - CONTRACT_LENGTH
+  
+  Validation:
+    No errors
+  Spell Correction: what are the PRICE_EXPIRATION_DATE,CONTRACT_LENGTH values for 112233?
+  ==================================================================================
+Test 7: fetch CURRENCY,MIN_INV_OBLIGATION from 445566
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 445566
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (2):
+    - 
+    CURRENCY
+    - MIN_INV_OBLIGATION
+  
+  Validation:
+    No errors
+  Spell Correction: fetch CURRENCY,MIN_INV_OBLIGATION from 445566
+  ==================================================================================
+Test 8: get me the IS_PROGRAM,IS_HPP_UNPRICED_CONTRACT flags for 778899
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 778899
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 778899
+  Display Entities (2):
+    - 
+    IS_PROGRAM
+    - IS_HPP_UNPRICED_CONTRACT
+  
+  Validation:
+    No errors
+  Spell Correction: get me the IS_PROGRAM,IS_HPP_UNPRICED_CONTRACT flags for 778899
+  ==================================================================================
+Test 9: show CMI,VMI status for contract 334455
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 334455
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 334455
+  Display Entities (3):
+    - 
+    CMI
+    - VMI
+    - STATUS
+  
+  Validation:
+    No errors
+  Spell Correction: show CMI,VMI status for contract 334455
+  ==================================================================================
+Test 10: what's the EDI,MIN_MAX settings for 667788?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 667788
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 667788
+  Display Entities (2):
+    - 
+    EDI
+    - MIN_MAX
+  
+  Validation:
+    No errors
+  Spell Correction: what's the EDI,MIN_MAX settings for 667788?
+  ==================================================================================
+Test 11: display BAILMENT,CONSIGNMENT info for 992211
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 992211
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 992211
+  Display Entities (2):
+    - 
+    BAILMENT
+    - CONSIGNMENT
+  
+  Validation:
+    No errors
+  Spell Correction: display BAILMENT,CONSIGNMENT info for 992211
+  ==================================================================================
+Test 12: give me KITTING,PL_3 details for contract 554433
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 554433
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 554433
+  Display Entities (2):
+    - 
+    KITTING
+    - PL_3
+  
+  Validation:
+    No errors
+  Spell Correction: give me KITTING,PL_3 details for contract 554433
+  ==================================================================================
+Test 13: show FSL_LOCATION,VENDING_MACHINES for 112200
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 112200
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 112200
+  Display Entities (3):
+    - 
+    FSL_LOCATION
+    - VENDING_MACHINES
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show FSL_LOCATION,VENDING_MACHINES for 112200
+  ==================================================================================
+Test 14: what's the SERVICE_FEE_APPLIES,E_COMMERCE_ACCESS for 889977?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 889977
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 889977
+  Display Entities (2):
+    - 
+    SERVICE_FEE_APPLIES
+    - E_COMMERCE_ACCESS
+  
+  Validation:
+    No errors
+  Spell Correction: what's the SERVICE_FEE_APPLIES,E_COMMERCE_ACCESS for 889977?
+  ==================================================================================
+Test 15: get me GT_25,PART_FILE status for contract 776655
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 776655
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 776655
+    - PART_NUMBER = _FILE
+  Display Entities (1):
+    - 
+    STATUS
+  
+  Validation:
+    No errors
+  Spell Correction: get me GT_25,PART_FILE status for contract 776655
+  ==================================================================================
+Test 16: show PMA_TSO_APPLIES,DFAR_APPLIES for 443322
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 443322
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 443322
+  Display Entities (2):
+    - 
+    PMA_TSO_APPLIES
+    - DFAR_APPLIES
+  
+  Validation:
+    No errors
+  Spell Correction: show PMA_TSO_APPLIES,DFAR_APPLIES for 443322
+  ==================================================================================
+Test 17: display ASL_APPLIES,ASL_DETAIL for contract 369258
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 369258
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 369258
+  Display Entities (2):
+    - 
+    ASL_APPLIES
+    - ASL_DETAIL
+  
+  Validation:
+    No errors
+  Spell Correction: display ASL_APPLIES,ASL_DETAIL for contract 369258
+  ==================================================================================
+Test 18: what's the STOCKING_STRATEGY,LIABILITY_ON_INVESTMENT for 852963?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 852963
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 852963
+  Display Entities (2):
+    - 
+    STOCKING_STRATEGY
+    - LIABILITY_ON_INVESTMENT
+  
+  Validation:
+    No errors
+  Spell Correction: what's the STOCKING_STRATEGY,LIABILITY_ON_INVESTMENT for 852963?
+  ==================================================================================
+Test 19: show HPP_LANGUAGE,CSM_LANGUAGE for contract 147258
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 147258
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 147258
+  Display Entities (2):
+    - 
+    HPP_LANGUAGE
+    - CSM_LANGUAGE
+  
+  Validation:
+    No errors
+  Spell Correction: show HPP_LANGUAGE,CSM_LANGUAGE for contract 147258
+  ==================================================================================
+Test 20: get me REBATE,LINE_MIN values for 963852
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 963852
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 963852
+  Display Entities (2):
+    - 
+    REBATE
+    - LINE_MIN
+  
+  Validation:
+    No errors
+  Spell Correction: get me REBATE,LINE_MIN values for 963852
+  ==================================================================================
+Test 21: display ORDER_MIN,EFFECTIVE_LOL for contract 789123
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 789123
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 789123
+  Display Entities (2):
+    - 
+    ORDER_MIN
+    - EFFECTIVE_LOL
+  
+  Validation:
+    No errors
+  Spell Correction: display ORDER_MIN,EFFECTIVE_LOL for contract 789123
+  ==================================================================================
+Test 22: what's the PENALTIES_DAMAGES,UNUSUAL_TITLE_TRANSFER for 456789?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 456789
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 456789
+  Display Entities (2):
+    - 
+    PENALTIES_DAMAGES
+    - UNUSUAL_TITLE_TRANSFER
+  
+  Validation:
+    No errors
+  Spell Correction: what's the PENALTIES_DAMAGES,UNUSUAL_TITLE_TRANSFER for 456789?
+  ==================================================================================
+Test 23: show RIGHTS_OF_RETURN,INCENTIVES_CREDITS for 321654
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 321654
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 321654
+  Display Entities (2):
+    - 
+    RIGHTS_OF_RETURN
+    - INCENTIVES_CREDITS
+  
+  Validation:
+    No errors
+  Spell Correction: show RIGHTS_OF_RETURN,INCENTIVES_CREDITS for 321654
+  ==================================================================================
+Test 24: get CANCELLATION_PRIVILEGES,BILL_AND_HOLD for contract 654321
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 654321
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 654321
+  Display Entities (2):
+    - 
+    CANCELLATION_PRIVILEGES
+    - BILL_AND_HOLD
+  
+  Validation:
+    No errors
+  Spell Correction: get CANCELLATION_PRIVILEGES,BILL_AND_HOLD for contract 654321
+  ==================================================================================
+Test 25: what's the BUY_BACK,CREATE_DATE for 987654?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 987654
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 987654
+  Display Entities (2):
+    - 
+    BUY_BACK
+    - CREATE_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: what's the BUY_BACK,CREATE_DATE for 987654?
+  ==================================================================================
+Test 26: can you show me the project type and status for contract 123456?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 123456
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 123456
+  Display Entities (2):
+    - 
+    STATUS
+    - PROJECT_TYPE
+  
+  Validation:
+    No errors
+  Spell Correction: can you show me the project type and status for contract 123456?
+  ==================================================================================
+Test 27: what type of contract is 789012 and who's the customer?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 789012
+  Part Number: null
+  Customer Number: 789012
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    CONTRACT_TYPE
+  
+  Validation:
+    No errors
+  Spell Correction: what type of contract is 789012 and who's the customer?
+  ==================================================================================
+Test 28: when does contract 345678 start and end?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 345678
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 345678
+  Display Entities (2):
+    - 
+    EXPIRATION_DATE
+    - EFFECTIVE_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: when does contract 345678 start and end?
+  ==================================================================================
+Test 29: how do we pay for contract 901234 and what incoterms apply?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 901234
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 901234
+  Display Entities (1):
+    - 
+    INCOTERMS
+  
+  Validation:
+    No errors
+  Spell Correction: how do we pay for contract 901234 and what incoterms apply?
+  ==================================================================================
+Test 30: is contract 567890 active and what type is it?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 567890
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - STATUS = ACTIVE
+    - AWARD_NUMBER = 567890
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: is contract 567890 active and what type is it?
+  ==================================================================================
+Test 31: when do prices expire for 112233 and how long is the contract?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 112233
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 112233
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: when do prices expire for 112233 and how long is the contract?
+  ==================================================================================
+Test 32: what currency is used in 445566 and is there minimum inventory?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 445566
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 445566
+  Display Entities (2):
+    - 
+    CURRENCY
+    - MIN_INV_OBLIGATION
+  
+  Validation:
+    No errors
+  Spell Correction: what currency is used in 445566 and is there minimum inventory?
+  ==================================================================================
+Test 33: is 778899 a program contract and is it HPP unpriced?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 778899
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (2):
+    - 
+    IS_PROGRAM
+    - IS_HPP_UNPRICED_CONTRACT
+  
+  Validation:
+    No errors
+  Spell Correction: is 778899 a program contract and is it HPP unpriced?
+  ==================================================================================
+Test 34: does contract 334455 have CMI or VMI?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 334455
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 334455
+  Display Entities (2):
+    - 
+    CMI
+    - VMI
+  
+  Validation:
+    No errors
+  Spell Correction: does contract 334455 have CMI or VMI?
+  ==================================================================================
+Test 35: are we using EDI for 667788 and what's the min-max policy?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 667788
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 667788
+  Display Entities (1):
+    - 
+    EDI
+  
+  Validation:
+    No errors
+  Spell Correction: are we using EDI for 667788 and what's the min-max policy?
+  ==================================================================================
+Test 36: is there bailment or consignment for contract 992211?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 992211
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 992211
+  Display Entities (2):
+    - 
+    CONSIGNMENT
+    - BAILMENT
+  
+  Validation:
+    No errors
+  Spell Correction: is there bailment or consignment for contract 992211?
+  ==================================================================================
+Test 37: does 554433 support kitting and what's its PL3 status?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 554433
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (3):
+    - 
+    STATUS
+    - KITTING
+    - PL_3
+  
+  Validation:
+    No errors
+  Spell Correction: does 554433 support kitting and what's its PL3 status?
+  ==================================================================================
+Test 38: where's the FSL location for 112200 and any vending machines?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 112200
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 112200
+  Display Entities (3):
+    - 
+    EXPIRATION_DATE
+    - VENDING_MACHINES
+    - FSL_LOCATION
+  
+  Validation:
+    No errors
+  Spell Correction: where's the FSL location for 112200 and any vending machines?
+  ==================================================================================
+Test 39: is there a service fee for 889977 and e-commerce access?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 889977
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 889977
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: is there a service fee for 889977 and e-commerce access?
+  ==================================================================================
+Test 40: is contract 776655 GT_25 and does it have part files?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 776655
+  Part Number: null
+  Customer Number: null
+  Filters (3):
+    - AWARD_NUMBER = 776655
+    - PART_NUMBER = FILES
+    - PART_FILE = true
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: is contract 776655 GT_25 and does it have part files?
+  ==================================================================================
+Test 41: list all parts for contract 123456
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 123456
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - LOADED_CP_NUMBER = 123456
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: list all parts for contract 123456
+  ==================================================================================
+Test 42: show me part NSN456 details from 789012
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 789012
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - PART_NUMBER = NSN456
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: show me part NSN456 details from 789012
+  ==================================================================================
+Test 43: what's the price of XYZ789 in contract 345678?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 345678
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 345678
+    - PART_NUMBER = XYZ789
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: what's the price of XYZ789 in contract 345678?
+  ==================================================================================
+Test 44: display failed parts for contract 901234
+  Action Type: parts_failed_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 901234
+  Part Number: null
+  Customer Number: null
+  Filters (3):
+    - HAS_FAILED_PARTS = true
+    - STATUS = FAILED
+    - LAODED_CP_NUMBER = 901234
+  Display Entities (4):
+    - 
+    PASRT_NUMEBR
+    - ERROR_COLUMN
+    - LAODED_CP_NUMBER
+    - REASON
+  
+  Validation:
+    No errors
+  Spell Correction: display failed parts for contract 901234
+  ==================================================================================
+Test 45: how many parts in 567890 total?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 567890
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - LOADED_CP_NUMBER = 567890
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: how many parts in 567890 total?
+  ==================================================================================
+Test 46: give me details for part ABC-123 in 112233
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 112233
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 112233
+    - PART_NUMBER = ABC-123
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: give me details for part ABC-123 in 112233
+  ==================================================================================
+Test 47: is part DEF/456 in contract 445566?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 445566
+  Part Number: DEF/456
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 445566
+    - PART_NUMBER = DEF/456
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: is part DEF/456 in contract 445566?
+  ==================================================================================
+Test 48: update price of item GHI789 in 778899
+  Action Type: update_part_price
+  Query Type: CONTRACTS
+  Contract Number: 778899
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 778899
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: update price of item GHI789 in 778899
+  ==================================================================================
+Test 49: what's the EAU for part JKL012 in 334455?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 334455
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 334455
+    - PART_NUMBER = JKL012
+  Display Entities (1):
+    - 
+    EAU
+  
+  Validation:
+    No errors
+  Spell Correction: what's the EAU for part JKL012 in 334455?
+  ==================================================================================
+Test 50: show me MOQ for part MNO345 in 667788
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 667788
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 667788
+    - PART_NUMBER = MNO345
+  Display Entities (1):
+    - 
+    MOQ
+  
+  Validation:
+    No errors
+  Spell Correction: show me MOQ for part MNO345 in 667788
+  ==================================================================================
+Test 51: list parts expiring next month in 992211
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 992211
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - EXPIRATION_DATE BETWEEN '2025-08-01' AND '2025-08-31'
+    - LOADED_CP_NUMBER = 992211
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: list parts expiring next month in 992211
+  ==================================================================================
+Test 52: what's the lead time for part PQR678 in 554433?
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 554433
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 554433
+    - PART_NUMBER = PQR678
+  Display Entities (1):
+    - 
+    LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: what's the lead time for part PQR678 in 554433?
+  ==================================================================================
+Test 53: display all active parts for contract 112200
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 112200
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - STATUS = ACTIVE
+    - LOADED_CP_NUMBER = 112200
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: display all active parts for contract 112200
+  ==================================================================================
+Test 54: show future prices for parts in 889977
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 889977
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - LOADED_CP_NUMBER = 889977
+  Display Entities (1):
+    - 
+    PRICE
+  
+  Validation:
+    No errors
+  Spell Correction: show future prices for parts in 889977
+  ==================================================================================
+Test 55: what parts failed validation in 776655?
+  Action Type: parts_failed_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 776655
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - STATUS = FAILED
+    - LAODED_CP_NUMBER = 776655
+  Display Entities (4):
+    - 
+    PASRT_NUMEBR
+    - ERROR_COLUMN
+    - LAODED_CP_NUMBER
+    - REASON
+  
+  Validation:
+    No errors
+  Spell Correction: what parts failed validation in 776655?
+  ==================================================================================
+Test 56: why did part STU901 fail in contract 443322?
+  Action Type: parts_failed_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 443322
+  Part Number: STU901
+  Customer Number: null
+  Filters (2):
+    - AWARD_NUMBER = 443322
+    - PART_NUMBER = STU901
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: why did part STU901 fail in contract 443322?
+  ==================================================================================
+Test 57: how to fix failed part VWX234 in 369258?
+  Action Type: parts_failed_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 369258
+  Part Number: null
+  Customer Number: null
+  Filters (3):
+    - STATUS = FAILED
+    - AWARD_NUMBER = 369258
+    - PART_NUMBER = VWX234
+  Display Entities (4):
+    - 
+    PASRT_NUMEBR
+    - ERROR_COLUMN
+    - LAODED_CP_NUMBER
+    - REASON
+  
+  Validation:
+    No errors
+  Spell Correction: how to fix failed part VWX234 in 369258?
+  ==================================================================================
+Test 58: resubmit failed parts for 852963
+  Action Type: parts_failed_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 852963
+  Part Number: null
+  Customer Number: null
+  Filters (3):
+    - HAS_FAILED_PARTS = true
+    - STATUS = FAILED
+    - LAODED_CP_NUMBER = 852963
+  Display Entities (4):
+    - 
+    PASRT_NUMEBR
+    - ERROR_COLUMN
+    - LAODED_CP_NUMBER
+    - REASON
+  
+  Validation:
+    No errors
+  Spell Correction: resubmit failed parts for 852963
+  ==================================================================================
+Test 59: validate all parts in contract 147258
+  Action Type: parts_by_contract_number
+  Query Type: CONTRACTS
+  Contract Number: 147258
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - LOADED_CP_NUMBER = 147258
+  Display Entities (7):
+    - 
+    LINE_NO
+    - INVOICE_PART_NUMBER
+    - EAU
+    - UOM
+    - PRICE
+    - ITEM_CLASSIFICATION
+    - LEAD_TIME
+  
+  Validation:
+    No errors
+  Spell Correction: validate all parts in contract 147258
+  ==================================================================================
+Test 60: reprice parts in 963852 with new costs
+  Action Type: update_part_price
+  Query Type: CONTRACTS
+  Contract Number: 963852
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - LOADED_CP_NUMBER = 963852
+  Display Entities (1):
+    - 
+    PRICE
+  
+  Validation:
+    No errors
+  Spell Correction: reprice parts in 963852 with new costs
+  ==================================================================================
+Test 61: is contract 789123 active?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 789123
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - STATUS = ACTIVE
+    - AWARD_NUMBER = 789123
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: is contract 789123 active?
+  ==================================================================================
+Test 62: when will 456789 expire?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 456789
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: when will 456789 expire?
+  ==================================================================================
+Test 63: notify customer about 321654 expiration
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 321654
+  Part Number: null
+  Customer Number: 321654
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: notify customer about 321654 expiration
+  ==================================================================================
+Test 64: send 90-day notice for contract 654321
+  Action Type: update_part
+  Query Type: CONTRACTS
+  Contract Number: 654321
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - EXPIRATION_DATE BETWEEN '2025-07-08' AND '2025-10-06'
+    - AWARD_NUMBER = 654321
+  Display Entities (1):
+    - 
+    EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: send 90-day notice for contract 654321
+  ==================================================================================
+Test 65: has 30-day notice been sent for 987654?
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 987654
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 987654
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: has 30-day notice been sent for 987654?
+  ==================================================================================
+Test 66: extend contract 123456 for 6 months
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 123456
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 123456
+  Display Entities (1):
+    - 
+    EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: extend contract 123456 for 6 months
+  ==================================================================================
+Test 67: renew contract 789012 automatically?
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 789012
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 789012
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: renew contract 789012 automatically?
+  ==================================================================================
+Test 68: terminate contract 345678 early
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 345678
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 345678
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: terminate contract 345678 early
+  ==================================================================================
+Test 69: put contract 901234 on hold
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 901234
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 901234
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: put contract 901234 on hold
+  ==================================================================================
+Test 70: reactivate contract 567890
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 567890
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 567890
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: reactivate contract 567890
+  ==================================================================================
+Test 71: change status of 112233 to pending
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 112233
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - STATUS = PENDING
+    - AWARD_NUMBER = 112233
+  Display Entities (2):
+    - 
+    EXPIRATION_DATE
+    - STATUS
+  
+  Validation:
+    No errors
+  Spell Correction: change status of 112233 to pending
+  ==================================================================================
+Test 72: approve contract 445566
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 445566
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 445566
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: approve contract 445566
+  ==================================================================================
+Test 73: reject contract 778899
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 778899
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - AWARD_NUMBER = 778899
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: reject contract 778899
+  ==================================================================================
+Test 74: archive expired contract 334455
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 334455
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - STATUS = EXPIRED
+    - AWARD_NUMBER = 334455
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: archive expired contract 334455
+  ==================================================================================
+Test 75: clone settings from 667788 to new contract
+  Action Type: update_contract
+  Query Type: CONTRACTS
+  Contract Number: 667788
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: clone settings from 667788 to new contract
+  ==================================================================================
+Test 76: find contracts expiring in Q3 2024
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - EXPIRATION_DATE BETWEEN '2024-07-01' AND '2024-09-30'
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts expiring in Q3 2024
+  ==================================================================================
+Test 77: list all program contracts
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - IS_PROGRAM = true
+  Display Entities (1):
+    - 
+    IS_PROGRAM
+  
+  Validation:
+    No errors
+  Spell Correction: list all program contracts
+  ==================================================================================
+Test 78: show contracts with VMI enabled
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - VMI = true
+  Display Entities (1):
+    - 
+    VMI
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with VMI enabled
+  ==================================================================================
+Test 79: find contracts needing 90-day notice
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - EXPIRATION_DATE BETWEEN '2025-07-08' AND '2025-10-06'
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts needing 90-day notice
+  ==================================================================================
+Test 80: display contracts with service fees
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: display contracts with service fees
+  ==================================================================================
+Test 81: list contracts with MOQ > 100
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - MOQ > 100
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with MOQ > 100
+  ==================================================================================
+Test 82: find contracts with special incoterms
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    INCOTERMS
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with special incoterms
+  ==================================================================================
+Test 83: show contracts with price expiration soon
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with price expiration soon
+  ==================================================================================
+Test 84: list contracts with failed parts
+  Action Type: parts_failed_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - HAS_FAILED_PARTS = true
+    - STATUS = FAILED
+  Display Entities (4):
+    - 
+    PASRT_NUMEBR
+    - ERROR_COLUMN
+    - LAODED_CP_NUMBER
+    - REASON
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with failed parts
+  ==================================================================================
+Test 85: find contracts needing revalidation
+  Action Type: contracts_list
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts needing revalidation
+  ==================================================================================
+Test 86: show contracts with CMI and VMI
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (2):
+    - 
+    CMI
+    - VMI
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with CMI and VMI
+  ==================================================================================
+Test 87: list contracts with kitting enabled
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    KITTING
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with kitting enabled
+  ==================================================================================
+Test 88: find contracts with buyback clauses
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with buyback clauses
+  ==================================================================================
+Test 89: show contracts with bill-and-hold
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with bill-and-hold
+  ==================================================================================
+Test 90: list contracts with GT_25 status
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    STATUS
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with GT_25 status
+  ==================================================================================
+Test 91: find contracts with PMA/TSO applies
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with PMA/TSO applies
+  ==================================================================================
+Test 92: show contracts with DFAR clauses
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with DFAR clauses
+  ==================================================================================
+Test 93: list contracts created last month
+  Action Type: contracts_list
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts created last month
+  ==================================================================================
+Test 94: find contracts updated in past week
+  Action Type: contracts_list
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts updated in past week
+  ==================================================================================
+Test 95: show contracts by customer 999888
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 999888
+  Part Number: null
+  Customer Number: 999888
+  Filters (1):
+    - CUSTOMER_NUMBER = 999888
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts by customer 999888
+  ==================================================================================
+Test 96: list contracts by type GOVERNMENT
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - CONTRACT_TYPE = GOVERNMENT
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts by type GOVERNMENT
+  ==================================================================================
+Test 97: find contracts with rebates > 5%
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - REBATE > 5
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with rebates > 5%
+  ==================================================================================
+Test 98: show contracts with line minimums
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with line minimums
+  ==================================================================================
+Test 99: list contracts needing site visits
+  Action Type: contracts_list
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts needing site visits
+  ==================================================================================
+Test 100: find contracts with FSL locations
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with FSL locations
+  ==================================================================================
+
+=== FILTER-SPECIFIC TEST ===
+Test 101: show contracts with price > 500
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - PRICE > 500
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with price > 500
+  ==================================================================================
+Test 102: find parts with price <= 100
+  Action Type: parts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - PRICE <= 100
+  Display Entities (1):
+    - 
+    PRICE
+  
+  Validation:
+    No errors
+  Spell Correction: find parts with price <= 100
+  ==================================================================================
+Test 103: list contracts with price >= 1000
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - PRICE >= 1000
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with price >= 1000
+  ==================================================================================
+Test 104: show parts with price = 250
+  Action Type: parts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - PRICE = 250
+  Display Entities (1):
+    - 
+    PRICE
+  
+  Validation:
+    No errors
+  Spell Correction: show parts with price = 250
+  ==================================================================================
+Test 105: find contracts created after 2024-01-01
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - CREATED_DATE = ter 2024
+    - CREATE_DATE > 2024-01-01
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts created after 2024-01-01
+  ==================================================================================
+Test 106: show contracts expiring before 2024-12-31
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts expiring before 2024-12-31
+  ==================================================================================
+Test 107: list contracts created between 2023-01-01 and 2023-12-31
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - CREATED_DATE = een 2023
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts created between 2023-01-01 and 2023-12-31
+  ==================================================================================
+Test 108: find contracts expiring in Q2 2024
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - EXPIRATION_DATE BETWEEN '2024-04-01' AND '2024-06-30'
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts expiring in Q2 2024
+  ==================================================================================
+Test 109: show contracts with 90-day notice
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - EXPIRATION_DATE BETWEEN '2025-07-08' AND '2025-10-06'
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with 90-day notice
+  ==================================================================================
+Test 110: show active contracts
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - STATUS = ACTIVE
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show active contracts
+  ==================================================================================
+Test 111: find expired contracts
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - STATUS = EXPIRED
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find expired contracts
+  ==================================================================================
+Test 112: list failed parts
+  Action Type: parts_failed_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - HAS_FAILED_PARTS = true
+    - STATUS = FAILED
+  Display Entities (4):
+    - 
+    PASRT_NUMEBR
+    - ERROR_COLUMN
+    - LAODED_CP_NUMBER
+    - REASON
+  
+  Validation:
+    No errors
+  Spell Correction: list failed parts
+  ==================================================================================
+Test 113: show contracts with status = PENDING
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - STATUS = PENDING
+  Display Entities (2):
+    - 
+    EXPIRATION_DATE
+    - STATUS
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with status = PENDING
+  ==================================================================================
+Test 114: show program contracts
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - IS_PROGRAM = true
+  Display Entities (1):
+    - 
+    IS_PROGRAM
+  
+  Validation:
+    No errors
+  Spell Correction: show program contracts
+  ==================================================================================
+Test 115: find contracts with VMI enabled
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - VMI = true
+  Display Entities (1):
+    - 
+    VMI
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with VMI enabled
+  ==================================================================================
+Test 116: list contracts with CMI
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    CMI
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with CMI
+  ==================================================================================
+Test 117: show contracts with kitting
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    KITTING
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with kitting
+  ==================================================================================
+Test 118: find contracts with GT_25 status
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    STATUS
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with GT_25 status
+  ==================================================================================
+Test 119: show contracts for customer 123456
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 123456
+  Part Number: null
+  Customer Number: 123456
+  Filters (1):
+    - CUSTOMER_NUMBER = 123456
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts for customer 123456
+  ==================================================================================
+Test 120: find contracts by customer name 'Siemens'
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (1):
+    - 
+    CUSTOMER_NAME
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts by customer name 'Siemens'
+  ==================================================================================
+Test 121: list contracts by customer 789012
+  Action Type: contracts_by_contractnumber
+  Query Type: CONTRACTS
+  Contract Number: 789012
+  Part Number: null
+  Customer Number: 789012
+  Filters (1):
+    - CUSTOMER_NUMBER = 789012
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts by customer 789012
+  ==================================================================================
+Test 122: show contracts by type GOVERNMENT
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - CONTRACT_TYPE = GOVERNMENT
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts by type GOVERNMENT
+  ==================================================================================
+Test 123: find contracts by type COMMERCIAL
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - CONTRACT_TYPE = COMMERCIAL
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts by type COMMERCIAL
+  ==================================================================================
+Test 124: list contracts by type MILITARY
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (1):
+    - CONTRACT_TYPE = MILITARY
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts by type MILITARY
+  ==================================================================================
+Test 125: show contracts with MOQ > 100 and price < 500
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - MOQ > 100
+    - PRICE < 500
+  Display Entities (4):
+    - 
+    CONTRACT_NAME
+    - STATUS
+    - EFFECTIVE_DATE
+    - EXPIRATION_DATE
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with MOQ > 100 and price < 500
+  ==================================================================================
+Test 126: find contracts with rebates > 5% and VMI enabled
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (2):
+    - REBATE > 5
+    - VMI = true
+  Display Entities (1):
+    - 
+    VMI
+  
+  Validation:
+    No errors
+  Spell Correction: find contracts with rebates > 5% and VMI enabled
+  ==================================================================================
+Test 127: list contracts with kitting and GT_25 status
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (2):
+    - 
+    STATUS
+    - KITTING
+  
+  Validation:
+    No errors
+  Spell Correction: list contracts with kitting and GT_25 status
+  ==================================================================================
+Test 128: show contracts with CMI and minimum inventory > 1000
+  Action Type: contracts_by_filter
+  Query Type: CONTRACTS
+  Contract Number: null
+  Part Number: null
+  Customer Number: null
+  Filters (0):
+    None
+  Display Entities (2):
+    - 
+    CMI
+    - MIN_INV_OBLIGATION
+  
+  Validation:
+    No errors
+  Spell Correction: show contracts with CMI and minimum inventory > 1000
+  ==================================================================================
+
+=== TEST SUMMARY ===
+Total queries tested: 128
+Test completed successfully!

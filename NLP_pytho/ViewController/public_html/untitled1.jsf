@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="untitled1.jsf" id="d1">
+        <af:messages id="m1"/>
+        <af:form id="f1"></af:form>
+        <af:table value="#{bindings.EMP.collectionModel}" var="row" rows="#{bindings.EMP.rangeSize}"
+                  emptyText="#{bindings.EMP.viewable ? 'No data to display.' : 'Access Denied.'}" rowBandingInterval="0"
+                  selectedRowKeys="#{bindings.EMP.collectionModel.selectedRow}"
+                  selectionListener="#{bindings.EMP.collectionModel.makeCurrent}" rowSelection="single"
+                  fetchSize="#{bindings.EMP.rangeSize}" id="t1">
+            <af:column headerText="#{bindings.EMP.hints.id.label}" id="c1">
+                <af:outputText value="#{row.id}" shortDesc="#{bindings.EMP.hints.id.tooltip}" id="ot1"/>
+            </af:column>
+        </af:table>
+    </af:document>
+</f:view>

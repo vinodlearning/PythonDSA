@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.22.48" id="DataBindings"
+             SeparateXMLFiles="false" Package="com.oracle.view" ClientType="Generic">
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/adf/controller/binding"
+             className="oracle.adf.controller.internal.binding.TaskFlowBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adf.controller.internal.dtrt.binding.BindingDTObjectFactory"/>
+  </definitionFactories>
+  <pageMap>
+    <page path="/untitled1.jsf" usageId="com_oracle_view_untitled1PageDef"/>
+    <page path="/Balayya.jsf" usageId="com_oracle_view_BalayyaPageDef"/>
+    <page path="/chatbotUI.jsff" usageId="com_oracle_view_chatbotUIPageDef"/>
+    <page path="/pages/Chat.jspx" usageId="com_oracle_view_ChatPageDef"/>
+    <page path="/chat.jsff" usageId="com_oracle_view_chatPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="com_oracle_view_untitled1PageDef" path="com.oracle.view.pageDefs.untitled1PageDef"/>
+    <page id="com_oracle_view_BalayyaPageDef" path="com.oracle.view.pageDefs.BalayyaPageDef"/>
+    <page id="com_oracle_view_chatbotUIPageDef" path="com.oracle.view.pageDefs.chatbotUIPageDef"/>
+    <page id="com_oracle_view_ChatPageDef" path="pages.ChatPageDef"/>
+    <page id="com_oracle_view_chatPageDef" path="com.oracle.view.pageDefs.chatPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="Serice" path="com.oracle.model.Serice"/>
+    <BC4JDataControl id="AppModuleDataControl" Package="com.oracle.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

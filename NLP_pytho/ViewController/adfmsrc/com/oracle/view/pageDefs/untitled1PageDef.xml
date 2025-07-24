@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.22.48" id="untitled1PageDef"
+                Package="com.oracle.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <methodIterator Binds="pull.result" DataControl="Serice" RangeSize="25" BeanClass="com.oracle.model.Serice.EMP"
+                    id="pullIterator"/>
+  </executables>
+  <bindings>
+    <methodAction id="pull" RequiresUpdateModel="true" Action="invokeMethod" MethodName="pull"
+                  IsViewObjectMethod="false" DataControl="Serice" InstanceName="bindings.pull.dataControl.dataProvider"
+                  ReturnName="data.Serice.methodResults.pull_pull_dataControl_dataProvider_pull_result"/>
+    <tree IterBinding="pullIterator" id="EMP">
+      <nodeDefinition DefName="com.oracle.model.Serice.EMP" Name="EMP0">
+        <AttrNames>
+          <Item Value="id"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

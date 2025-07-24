@@ -1,0 +1,128 @@
+NLP TEST AUDIT - ONLY ERROR/UNHANDLED CASES
+============================================
+Generated: Thu Jul 24 22:11:06 IST 2025
+Total Test Cases: 51
+
+test case 6 [ERROR/UNHANDLED]
+user input: I need guidance on creating a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 18 [ERROR/UNHANDLED]
+user input: Initiate contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 19 [ERROR/UNHANDLED]
+user input: Start a new contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 20 [ERROR/UNHANDLED]
+user input: Could you draft a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 27 [ERROR/UNHANDLED]
+user input: Steps for makeing a contrakt
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 28 [ERROR/UNHANDLED]
+user input: Creat a contract pls
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 33 [ERROR/UNHANDLED]
+user input: Steps contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 36 [ERROR/UNHANDLED]
+user input: Creation steps contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 41 [ERROR/UNHANDLED]
+user input: contractcreation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 43 [ERROR/UNHANDLED]
+user input: contract; creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 47 [ERROR/UNHANDLED]
+user input: ctrct
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 48 [ERROR/UNHANDLED]
+user input: mk
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 49 [ERROR/UNHANDLED]
+user input: how
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+
+SUMMARY
+=======
+Total test cases: 51
+Total error/unhandled cases: 13
+Error/Unhandled rate: 25.49%

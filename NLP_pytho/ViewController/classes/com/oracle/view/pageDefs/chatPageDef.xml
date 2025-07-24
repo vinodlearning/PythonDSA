@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.22.48" id="chatPageDef"
+                Package="com.oracle.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+  </executables>
+ <bindings>
+    <methodAction id="buildDynamicSQL" RequiresUpdateModel="true" Action="invokeMethod" MethodName="buildDynamicSQL"
+                  IsViewObjectMethod="false" DataControl="AppModuleDataControl"
+                  InstanceName="bindings.buildDynamicSQL.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.buildDynamicSQL_buildDynamicSQL_dataControl_dataProvider_buildDynamicSQL_result">
+      <NamedData NDName="actionType" NDType="java.lang.String"/>
+      <NamedData NDName="filterAttributes" NDType="java.lang.String"/>
+      <NamedData NDName="filterValues" NDType="java.lang.String"/>
+      <NamedData NDName="filterOperations" NDType="java.lang.String"/>
+      <NamedData NDName="displayColumns" NDType="java.lang.String"/>
+    </methodAction>
+    <methodAction id="executeDynamicQuery" RequiresUpdateModel="true" Action="invokeMethod"
+                  MethodName="executeDynamicQuery" IsViewObjectMethod="false" DataControl="AppModuleDataControl"
+                  InstanceName="bindings.executeDynamicQuery.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.executeDynamicQuery_executeDynamicQuery_dataControl_dataProvider_executeDynamicQuery_result">
+      <NamedData NDName="sqlQuery" NDType="java.lang.String"/>
+      <NamedData NDName="paramValues" NDType="java.lang.String[]"/>
+      <NamedData NDName="paramTypes" NDType="java.lang.String[]"/>
+    </methodAction>
+    <methodAction id="executeNLPQuery" RequiresUpdateModel="true" Action="invokeMethod" MethodName="executeNLPQuery"
+                  IsViewObjectMethod="false" DataControl="AppModuleDataControl"
+                  InstanceName="bindings.executeNLPQuery.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.executeNLPQuery_executeNLPQuery_dataControl_dataProvider_executeNLPQuery_result">
+      <NamedData NDName="actionType" NDType="java.lang.String"/>
+      <NamedData NDName="filterAttributes" NDType="java.lang.String"/>
+      <NamedData NDName="filterValues" NDType="java.lang.String"/>
+      <NamedData NDName="filterOperations" NDType="java.lang.String"/>
+      <NamedData NDName="displayColumns" NDType="java.lang.String"/>
+    </methodAction>
+    <methodAction id="pullContractDatesByAwardNumber" RequiresUpdateModel="true" Action="invokeMethod"
+                  MethodName="pullContractDatesByAwardNumber" IsViewObjectMethod="false"
+                  DataControl="AppModuleDataControl"
+                  InstanceName="bindings.pullContractDatesByAwardNumber.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.pullContractDatesByAwardNumber_pullContractDatesByAwardNumber_dataControl_dataProvider_pullContractDatesByAwardNumber_result">
+      <NamedData NDName="awardNumber" NDType="java.lang.String"/>
+    </methodAction>
+    <methodAction id="pullContractsByFilters" RequiresUpdateModel="true" Action="invokeMethod"
+                  MethodName="pullContractsByFilters" IsViewObjectMethod="false" DataControl="AppModuleDataControl"
+                  InstanceName="bindings.pullContractsByFilters.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.pullContractsByFilters_pullContractsByFilters_dataControl_dataProvider_pullContractsByFilters_result">
+      <NamedData NDName="userName" NDType="java.lang.String"/>
+      <NamedData NDName="dateFilters" NDType="java.util.List"/>
+      <NamedData NDName="query" NDType="java.lang.String"/>
+    </methodAction>
+    <methodAction id="pullCustomerDetails" RequiresUpdateModel="true" Action="invokeMethod"
+                  MethodName="pullCustomerDetails" IsViewObjectMethod="false" DataControl="AppModuleDataControl"
+                  InstanceName="bindings.pullCustomerDetails.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.pullCustomerDetails_pullCustomerDetails_dataControl_dataProvider_pullCustomerDetails_result">
+      <NamedData NDName="customerNumber" NDType="java.lang.String"/>
+    </methodAction>
+    <methodAction id="createContractByBOT" RequiresUpdateModel="true" Action="invokeMethod"
+                  MethodName="createContractByBOT" IsViewObjectMethod="false" DataControl="AppModuleDataControl"
+                  InstanceName="bindings.createContractByBOT.dataControl.dataProvider"
+                  ReturnName="data.AppModuleDataControl.methodResults.createContractByBOT_createContractByBOT_dataControl_dataProvider_createContractByBOT_result">
+      <NamedData NDName="contractData" NDType="java.util.Map"/>
+      <NamedData NDName="createdBy" NDType="java.lang.String"/>
+    </methodAction>
+  </bindings>
+</pageDefinition>

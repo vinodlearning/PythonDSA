@@ -1,0 +1,4295 @@
+NLP TEST AUDIT RESULTS
+======================
+Generated: Thu Jul 24 21:56:53 IST 2025
+Total Test Cases: 476
+
+test case 1 [FAILED]
+user input: Tell me how to create a contract
+corrected input: Tell me how to create a contract
+filters entities: []
+display entities: [CONTRACT_NAME, CUSTOMER_NAME, ACCOUNT_NUMBER, DESCRIPTION, COMMENTS, TITLE, IS_PRICELIST]
+query: HELP
+action type: HELP_CONTRACT_CREATE_USER
+sql: <h4>Contract Creation Steps</h4><ol><li><b>Gather Required Information:</b><ul><li>Contract/Award Number</li><li>Contract Name</li><li>Customer Details</li><li>Dates (Effective, Expiration, Price Expiration)</li></ul></li><li><b>Access Contract Module:</b> Navigate to the contracts section in your system</li><li><b>Fill Contract Details:</b> Enter all required information accurately</li><li><b>Review and Submit:</b> Double-check all information before saving</li><li><b>Confirmation:</b> Wait for system confirmation of contract creation</li></ol><p><b>Note:</b> Ensure you have proper authorization before creating contracts.</p>
+--------------------------------------------------
+test case 2 [FAILED]
+user input: How to create contarct?
+corrected input: How to create contarct?
+filters entities: []
+display entities: [CONTRACT_NAME, CUSTOMER_NAME, ACCOUNT_NUMBER, DESCRIPTION, COMMENTS, TITLE, IS_PRICELIST]
+query: HELP
+action type: HELP_CONTRACT_CREATE_USER
+sql: <h4>Contract Creation Steps</h4><ol><li><b>Gather Required Information:</b><ul><li>Contract/Award Number</li><li>Contract Name</li><li>Customer Details</li><li>Dates (Effective, Expiration, Price Expiration)</li></ul></li><li><b>Access Contract Module:</b> Navigate to the contracts section in your system</li><li><b>Fill Contract Details:</b> Enter all required information accurately</li><li><b>Review and Submit:</b> Double-check all information before saving</li><li><b>Confirmation:</b> Wait for system confirmation of contract creation</li></ol><p><b>Note:</b> Ensure you have proper authorization before creating contracts.</p>
+--------------------------------------------------
+test case 3 [FAILED]
+user input: Steps to create contract
+corrected input: Steps to create contract
+filters entities: []
+display entities: [CONTRACT_NAME, CUSTOMER_NAME, ACCOUNT_NUMBER, DESCRIPTION, COMMENTS, TITLE, IS_PRICELIST]
+query: HELP
+action type: HELP_CONTRACT_CREATE_USER
+sql: <h4>Contract Creation Steps</h4><ol><li><b>Gather Required Information:</b><ul><li>Contract/Award Number</li><li>Contract Name</li><li>Customer Details</li><li>Dates (Effective, Expiration, Price Expiration)</li></ul></li><li><b>Access Contract Module:</b> Navigate to the contracts section in your system</li><li><b>Fill Contract Details:</b> Enter all required information accurately</li><li><b>Review and Submit:</b> Double-check all information before saving</li><li><b>Confirmation:</b> Wait for system confirmation of contract creation</li></ol><p><b>Note:</b> Ensure you have proper authorization before creating contracts.</p>
+--------------------------------------------------
+test case 4 [FAILED]
+user input: Can you show me how to make a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 5 [FAILED]
+user input: What's the process for contract creation?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 6 [FAILED]
+user input: I need guidance on creating a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 7 [FAILED]
+user input: Walk me through contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 8 [FAILED]
+user input: Explain how to set up a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 9 [FAILED]
+user input: Instructions for making a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 10 [FAILED]
+user input: Need help understanding contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 11 [FAILED]
+user input: Create a contract for me
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 12 [FAILED]
+user input: Can you create contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 13 [FAILED]
+user input: Please make a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 14 [FAILED]
+user input: Generate a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 15 [FAILED]
+user input: I need you to create a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 16 [FAILED]
+user input: Set up a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 17 [FAILED]
+user input: Make me a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 18 [FAILED]
+user input: Initiate contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 19 [FAILED]
+user input: Start a new contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 20 [FAILED]
+user input: Could you draft a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 21 [FAILED]
+user input: How do I create a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 22 [FAILED]
+user input: What are the steps to make a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 23 [FAILED]
+user input: Can you explain how to create a contract?
+corrected input: Can you explain how to create a contract?
+filters entities: []
+display entities: [CONTRACT_NAME, CUSTOMER_NAME, ACCOUNT_NUMBER, DESCRIPTION, COMMENTS, TITLE, IS_PRICELIST]
+query: HELP
+action type: HELP_CONTRACT_CREATE_USER
+sql: <h4>Contract Creation Steps</h4><ol><li><b>Gather Required Information:</b><ul><li>Contract/Award Number</li><li>Contract Name</li><li>Customer Details</li><li>Dates (Effective, Expiration, Price Expiration)</li></ul></li><li><b>Access Contract Module:</b> Navigate to the contracts section in your system</li><li><b>Fill Contract Details:</b> Enter all required information accurately</li><li><b>Review and Submit:</b> Double-check all information before saving</li><li><b>Confirmation:</b> Wait for system confirmation of contract creation</li></ol><p><b>Note:</b> Ensure you have proper authorization before creating contracts.</p>
+--------------------------------------------------
+test case 24 [FAILED]
+user input: Could you provide contract creation instructions?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 25 [FAILED]
+user input: I would like to know the contract creation process
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 26 [FAILED]
+user input: How too creat a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 27 [FAILED]
+user input: Steps for makeing a contrakt
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 28 [FAILED]
+user input: Creat a contract pls
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 29 [FAILED]
+user input: Plz make contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 30 [FAILED]
+user input: Need 2 create cntract
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 31 [FAILED]
+user input: How 2 make contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 32 [FAILED]
+user input: How create contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 33 [FAILED]
+user input: Steps contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 34 [FAILED]
+user input: Make contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 35 [FAILED]
+user input: Contract how make?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 36 [FAILED]
+user input: Creation steps contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 37 [FAILED]
+user input: For me contract create
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 38 [FAILED]
+user input: HOW TO CREATE contract?
+corrected input: HOW TO CREATE contract?
+filters entities: []
+display entities: [CONTRACT_NAME, CUSTOMER_NAME, ACCOUNT_NUMBER, DESCRIPTION, COMMENTS, TITLE, IS_PRICELIST]
+query: HELP
+action type: HELP_CONTRACT_CREATE_USER
+sql: <h4>Contract Creation Steps</h4><ol><li><b>Gather Required Information:</b><ul><li>Contract/Award Number</li><li>Contract Name</li><li>Customer Details</li><li>Dates (Effective, Expiration, Price Expiration)</li></ul></li><li><b>Access Contract Module:</b> Navigate to the contracts section in your system</li><li><b>Fill Contract Details:</b> Enter all required information accurately</li><li><b>Review and Submit:</b> Double-check all information before saving</li><li><b>Confirmation:</b> Wait for system confirmation of contract creation</li></ol><p><b>Note:</b> Ensure you have proper authorization before creating contracts.</p>
+--------------------------------------------------
+test case 39 [FAILED]
+user input: create...CONTRACT!
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 40 [FAILED]
+user input: contract (how to)?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 41 [FAILED]
+user input: contractcreation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 42 [FAILED]
+user input: contract     make
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 43 [FAILED]
+user input: contract; creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 44 [FAILED]
+user input: contract@create
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 45 [FAILED]
+user input: #createcontract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 46 [FAILED]
+user input: contract*creation*help
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 47 [FAILED]
+user input: ctrct
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 48 [FAILED]
+user input: mk
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 49 [FAILED]
+user input: how
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 50 [FAILED]
+user input: Could you possibly be so kind as to tell me the exact step-by-step process for creating a new contractual agreement in this system?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 51 [FAILED]
+user input: I would really appreciate if you could immediately generate for me a complete contract document with all standard terms and conditions included
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 52 [FAILED]
+user input: What is the effective date for contarct 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 53 [FAILED]
+user input: Show me contract detials for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 54 [FAILED]
+user input: When does contrat 456789 expire?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 55 [FAILED]
+user input: What's the experation date for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 56 [FAILED]
+user input: Get contarct informaton for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 57 [FAILED]
+user input: Whats the efective date for 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 58 [FAILED]
+user input: Show contarct 678901 details
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 59 [FAILED]
+user input: What is efective date of 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 60 [FAILED]
+user input: Get contract info for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 61 [FAILED]
+user input: Show me contarct 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 62 [FAILED]
+user input: effective date for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 63 [FAILED]
+user input: show 789012 details
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 64 [FAILED]
+user input: when does 456789 end
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 65 [FAILED]
+user input: 234567 expiration
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 66 [FAILED]
+user input: 345678 info
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 67 [FAILED]
+user input: 567890 effective date
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 68 [FAILED]
+user input: 678901 contract details
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 69 [FAILED]
+user input: 789012 expiry date
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 70 [FAILED]
+user input: 890123 start date
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 71 [FAILED]
+user input: 123456 begin date
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 72 [FAILED]
+user input: whos the customer for contarct 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 73 [FAILED]
+user input: customer name for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 74 [FAILED]
+user input: what customer for contrat 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 75 [FAILED]
+user input: show custmer for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 76 [FAILED]
+user input: customer detials for 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 77 [FAILED]
+user input: who is custommer for 678901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 78 [FAILED]
+user input: get customer info for contarct 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 79 [FAILED]
+user input: customer number for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 80 [FAILED]
+user input: show custmer number for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 81 [FAILED]
+user input: what custommer number for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 82 [FAILED]
+user input: payment terms for contarct 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 83 [FAILED]
+user input: what are paymet terms for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 84 [FAILED]
+user input: show payment term for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 85 [FAILED]
+user input: payement terms for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 86 [FAILED]
+user input: what payment for contrat 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 87 [FAILED]
+user input: incoterms for contarct 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 88 [FAILED]
+user input: what incoterm for 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 89 [FAILED]
+user input: show incotems for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 90 [FAILED]
+user input: contract lenght for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 91 [FAILED]
+user input: what contract length for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 92 [FAILED]
+user input: price experation date for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 93 [FAILED]
+user input: when price expire for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 94 [FAILED]
+user input: price expiry for contarct 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 95 [FAILED]
+user input: show price experation for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 96 [FAILED]
+user input: what price expire date for 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 97 [FAILED]
+user input: creation date for contarct 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 98 [FAILED]
+user input: when was 789012 created?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 99 [FAILED]
+user input: create date for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: 
+action type: 
+sql: <p><b>Unknown action type:</b> </p>
+--------------------------------------------------
+test case 100 [FAILED]
+user input: show creation for contarct 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 101 [FAILED]
+user input: when created 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 102 [FAILED]
+user input: what type of contarct 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 103 [FAILED]
+user input: contract typ for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 104 [FAILED]
+user input: show contarct type for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 105 [FAILED]
+user input: what kind contract 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 106 [FAILED]
+user input: type of contrat 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 107 [FAILED]
+user input: status of contarct 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 108 [FAILED]
+user input: what status for 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 109 [FAILED]
+user input: show contarct status for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 110 [FAILED]
+user input: is 123456 active?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 111 [FAILED]
+user input: contract staus for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 112 [FAILED]
+user input: show all details for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 113 [FAILED]
+user input: get everything for contarct 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 114 [FAILED]
+user input: full info for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 115 [FAILED]
+user input: complete details contrat 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 116 [FAILED]
+user input: show summary for 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 117 [FAILED]
+user input: overview of contarct 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 118 [FAILED]
+user input: brief for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 119 [FAILED]
+user input: quick info 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 120 [FAILED]
+user input: details about 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 121 [FAILED]
+user input: information on contarct 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 122 [FAILED]
+user input: What is the lead time for part AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 123 [FAILED]
+user input: Show me part detials for BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 124 [FAILED]
+user input: What lead tim for part DE23456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 125 [FAILED]
+user input: Show leadtime for FG78901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 126 [FAILED]
+user input: What's the leed time for part HI34567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 127 [FAILED]
+user input: Get part informaton for JK89012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 128 [FAILED]
+user input: Show part info for LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 129 [FAILED]
+user input: What part details for NO90123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 130 [FAILED]
+user input: Get part data for PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 131 [FAILED]
+user input: Show part summary for RS12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 132 [FAILED]
+user input: What's the price for part AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 133 [FAILED]
+user input: Show pric for part BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 134 [FAILED]
+user input: What cost for part DE23456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 135 [FAILED]
+user input: Get price info for FG78901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 136 [FAILED]
+user input: Show pricing for part HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 137 [FAILED]
+user input: What's the prise for JK89012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 138 [FAILED]
+user input: Cost of part LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 139 [FAILED]
+user input: Price details for NO90123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 140 [FAILED]
+user input: Show part price for PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 141 [FAILED]
+user input: What pricing for RS12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 142 [FAILED]
+user input: What's the MOQ for part AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 143 [FAILED]
+user input: Show minimum order for BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 144 [FAILED]
+user input: What min order qty for DE23456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 145 [FAILED]
+user input: MOQ for part FG78901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 146 [FAILED]
+user input: Minimum order quantity for HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 147 [FAILED]
+user input: What UOM for part JK89012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 148 [FAILED]
+user input: Show unit of measure for LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 149 [FAILED]
+user input: UOM for NO90123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 150 [FAILED]
+user input: Unit measure for PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 151 [FAILED]
+user input: What unit for part RS12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 152 [FAILED]
+user input: What's the status of part AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 153 [FAILED]
+user input: Show part staus for BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 154 [FAILED]
+user input: Status for part DE23456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 155 [FAILED]
+user input: What status FG78901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 156 [FAILED]
+user input: Show part status for HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 157 [FAILED]
+user input: Is part JK89012 active?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 158 [FAILED]
+user input: Part status for LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 159 [FAILED]
+user input: What's status of NO90123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 160 [FAILED]
+user input: Show status for PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 161 [FAILED]
+user input: Status info for RS12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 162 [FAILED]
+user input: What's the item classification for AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 163 [FAILED]
+user input: Show item class for BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 164 [FAILED]
+user input: Classification for part DE23456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 165 [FAILED]
+user input: What class for FG78901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 166 [FAILED]
+user input: Item classification HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 167 [FAILED]
+user input: Show classification for JK89012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 168 [FAILED]
+user input: What item class for LM45678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 169 [FAILED]
+user input: Classification of NO90123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 170 [FAILED]
+user input: Item class for PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 171 [FAILED]
+user input: Show class for RS12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 172 [FAILED]
+user input: Show me invoice parts for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 173 [FAILED]
+user input: What invoice part for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 174 [FAILED]
+user input: List invoce parts for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 175 [FAILED]
+user input: Show invoice part for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 176 [FAILED]
+user input: What invoice parts in 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 177 [FAILED]
+user input: Get invoice part for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 178 [FAILED]
+user input: Show invoic parts for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 179 [FAILED]
+user input: List invoice part for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 180 [FAILED]
+user input: What invoice parts for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 181 [FAILED]
+user input: Show all invoice part for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 182 [FAILED]
+user input: Show me all parts for contarct 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 183 [FAILED]
+user input: What parts in 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 184 [FAILED]
+user input: List part for contract 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 185 [FAILED]
+user input: Show parts for contrat 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 186 [FAILED]
+user input: What parts loaded in 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 187 [FAILED]
+user input: Get parts for contarct 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 188 [FAILED]
+user input: Show all part for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 189 [FAILED]
+user input: List parts in contract 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 190 [FAILED]
+user input: What parts for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 191 [FAILED]
+user input: Show part list for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 192 [FAILED]
+user input: Show me failed parts for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 193 [FAILED]
+user input: What failed part for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 194 [FAILED]
+user input: List faild parts for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 195 [FAILED]
+user input: Show failed part for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 196 [FAILED]
+user input: What parts failed in 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 197 [FAILED]
+user input: Get failed parts for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 198 [FAILED]
+user input: Show failing parts for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 199 [FAILED]
+user input: List failed part for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 200 [FAILED]
+user input: What failed parts for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 201 [FAILED]
+user input: Show all failed part for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 202 [FAILED]
+user input: Why did parts fail for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 203 [FAILED]
+user input: Show error reasons for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 204 [FAILED]
+user input: What errors for failed parts 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 205 [FAILED]
+user input: Why parts failed in 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 206 [FAILED]
+user input: Show failure reasons for 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 207 [FAILED]
+user input: What caused parts to fail for 678901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 208 [FAILED]
+user input: Error details for failed parts 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 209 [FAILED]
+user input: Why failed parts in 890123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 210 [FAILED]
+user input: Show error info for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 211 [FAILED]
+user input: What errors caused failure for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 212 [FAILED]
+user input: Show me part errors for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 213 [FAILED]
+user input: What part error for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 214 [FAILED]
+user input: List parts with errors for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 215 [FAILED]
+user input: Show error parts for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 216 [FAILED]
+user input: What parts have errors in 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 217 [FAILED]
+user input: Get parts errors for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 218 [FAILED]
+user input: Show parts with issues for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 219 [FAILED]
+user input: List error parts for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 220 [FAILED]
+user input: What parts errors for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 221 [FAILED]
+user input: Show all error parts for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 222 [FAILED]
+user input: What columns have errors for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 223 [FAILED]
+user input: Show error columns for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 224 [FAILED]
+user input: Which columns failed for 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 225 [FAILED]
+user input: What column errors for 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 226 [FAILED]
+user input: Show failed columns for 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 227 [FAILED]
+user input: Error column details for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 228 [FAILED]
+user input: What columns with errors for 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 229 [FAILED]
+user input: Show column failures for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 230 [FAILED]
+user input: Which columns error for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 231 [FAILED]
+user input: Error column info for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 232 [FAILED]
+user input: Show me parts with missing data for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 233 [FAILED]
+user input: What parts missing info for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 234 [FAILED]
+user input: List parts with no data for 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 235 [FAILED]
+user input: Show incomplete parts for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 236 [FAILED]
+user input: What parts missing data in 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 237 [FAILED]
+user input: Get parts with missing info for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 238 [FAILED]
+user input: Show parts missing data for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 239 [FAILED]
+user input: List incomplete parts for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 240 [FAILED]
+user input: What parts no data for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 241 [FAILED]
+user input: Show missing data parts for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 242 [FAILED]
+user input: What errors occurred during loading for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 243 [FAILED]
+user input: Show loading errors for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 244 [FAILED]
+user input: What load errors for 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 245 [FAILED]
+user input: Show loading issues for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 246 [FAILED]
+user input: What happened during load for 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 247 [FAILED]
+user input: Loading error details for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 248 [FAILED]
+user input: What load problems for 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 249 [FAILED]
+user input: Show load failures for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 250 [FAILED]
+user input: Loading issues for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 251 [FAILED]
+user input: What errors during loading for 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 252 [FAILED]
+user input: List validation issues for 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 253 [FAILED]
+user input: Show validation errors for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 254 [FAILED]
+user input: What validation problems for 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 255 [FAILED]
+user input: Show validation issues for 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 256 [FAILED]
+user input: What validation errors in 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 257 [FAILED]
+user input: Get validation problems for 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 258 [FAILED]
+user input: Show validation failures for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 259 [FAILED]
+user input: List validation errors for 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 260 [FAILED]
+user input: What validation issues for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 261 [FAILED]
+user input: Show validation problems for 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 262 [FAILED]
+user input: Could you please show me the details for contract 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 263 [FAILED]
+user input: Would you mind telling me the price of part AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 264 [FAILED]
+user input: I would appreciate if you could provide contract information for 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 265 [FAILED]
+user input: May I please see the failed parts for contract 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 266 [FAILED]
+user input: Would it be possible to get the customer name for contract 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 267 [FAILED]
+user input: Hey, what's the deal with contract 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 268 [FAILED]
+user input: So, tell me about part AE12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 269 [FAILED]
+user input: Alright, I need to know about contract 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 270 [FAILED]
+user input: Look, can you just show me the failed parts for 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 271 [FAILED]
+user input: Listen, what's the price for part BC67890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 272 [FAILED]
+user input: Do you know the effective date for contract 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 273 [FAILED]
+user input: Can you tell me when contract 456789 expires?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 274 [FAILED]
+user input: Do you have information about part AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 275 [FAILED]
+user input: Is there any data on failed parts for contract 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 276 [FAILED]
+user input: Are you able to show me contract details for 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 277 [FAILED]
+user input: I'm really worried about contract 123456, what's wrong with it?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 278 [FAILED]
+user input: I'm frustrated with these failed parts for 123456, why did they fail?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 279 [FAILED]
+user input: I'm excited to see the new contract 789012 details!
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 280 [FAILED]
+user input: I'm confused about part AE12345, can you help?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 281 [FAILED]
+user input: I'm concerned about the status of contract 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 282 [FAILED]
+user input: What happened to contract 123456 yesterday?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 283 [FAILED]
+user input: Show me recent failed parts for contract 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 284 [FAILED]
+user input: What's the latest update on contract 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 285 [FAILED]
+user input: Give me today's status for part AE12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 286 [FAILED]
+user input: What changed in contract 123456 this week?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 287 [FAILED]
+user input: Compare contract 123456 with contract 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 288 [FAILED]
+user input: What's the difference between part AE12345 and BC67890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 289 [FAILED]
+user input: Show me contracts similar to 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 290 [FAILED]
+user input: Find parts like AE12345 but cheaper
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 291 [FAILED]
+user input: Which contract is better, 123456 or 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 292 [FAILED]
+user input: If contract 123456 is active, show me its details
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 293 [FAILED]
+user input: Show part AE12345 only if it's available
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 294 [FAILED]
+user input: Display contract 789012 unless it's expired
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 295 [FAILED]
+user input: Get failed parts for 123456 if any exist
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 296 [FAILED]
+user input: Show customer info for 234567 when possible
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 297 [FAILED]
+user input: Cómo crear un contrato?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 298 [FAILED]
+user input: Dime cómo hacer un contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 299 [FAILED]
+user input: Pasos para crear contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 300 [FAILED]
+user input: Puedes mostrarme cómo hacer un contrato?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 301 [FAILED]
+user input: Cuál es el proceso para crear contratos?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 302 [FAILED]
+user input: Necesito ayuda creando un contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 303 [FAILED]
+user input: Explícame cómo crear un contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 304 [FAILED]
+user input: Instrucciones para hacer contratos
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 305 [FAILED]
+user input: Ayuda para crear contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 306 [FAILED]
+user input: Crear un contrato para mí
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 307 [FAILED]
+user input: Puedes crear contrato?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 308 [FAILED]
+user input: Por favor haz un contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 309 [FAILED]
+user input: Generar un contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 310 [FAILED]
+user input: Necesito que crees un contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 311 [FAILED]
+user input: Mostrar detalles del contrato 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 312 [FAILED]
+user input: Cuál es la fecha efectiva del contrato 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 313 [FAILED]
+user input: Mostrar información del contrato 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 314 [FAILED]
+user input: Cuándo expira el contrato 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 315 [FAILED]
+user input: Cuál es la fecha de expiración de 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 316 [FAILED]
+user input: Obtener información del contrato 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 317 [FAILED]
+user input: Cuál es la fecha efectiva de 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 318 [FAILED]
+user input: Mostrar detalles del contrato 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 319 [FAILED]
+user input: Cuál es la fecha efectiva de 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 320 [FAILED]
+user input: Obtener información del contrato 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 321 [FAILED]
+user input: Mostrar contrato 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 322 [FAILED]
+user input: fecha efectiva para 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 323 [FAILED]
+user input: mostrar detalles de 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 324 [FAILED]
+user input: cuándo termina 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 325 [FAILED]
+user input: expiración de 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 326 [FAILED]
+user input: información de 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 327 [FAILED]
+user input: fecha efectiva de 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 328 [FAILED]
+user input: detalles del contrato 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 329 [FAILED]
+user input: fecha de expiración de 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 330 [FAILED]
+user input: fecha de inicio de 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 331 [FAILED]
+user input: fecha de comienzo de 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 332 [FAILED]
+user input: quién es el cliente del contrato 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 333 [FAILED]
+user input: nombre del cliente para 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 334 [FAILED]
+user input: qué cliente para contrato 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 335 [FAILED]
+user input: mostrar cliente para 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 336 [FAILED]
+user input: detalles del cliente para 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 337 [FAILED]
+user input: quién es el cliente para 678901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 338 [FAILED]
+user input: obtener información del cliente para contrato 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 339 [FAILED]
+user input: número de cliente para 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 340 [FAILED]
+user input: mostrar número de cliente para 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 341 [FAILED]
+user input: qué número de cliente para 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 342 [FAILED]
+user input: términos de pago para contrato 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 343 [FAILED]
+user input: cuáles son los términos de pago para 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 344 [FAILED]
+user input: mostrar términos de pago para 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 345 [FAILED]
+user input: términos de pago para 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 346 [FAILED]
+user input: qué pago para contrato 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 347 [FAILED]
+user input: incoterms para contrato 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 348 [FAILED]
+user input: qué incoterm para 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 349 [FAILED]
+user input: mostrar incoterms para 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 350 [FAILED]
+user input: duración del contrato para 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 351 [FAILED]
+user input: cuál es la duración del contrato para 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 352 [FAILED]
+user input: qué tipo de contrato 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 353 [FAILED]
+user input: tipo de contrato para 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 354 [FAILED]
+user input: mostrar tipo de contrato para 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 355 [FAILED]
+user input: qué clase de contrato 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 356 [FAILED]
+user input: tipo de contrato 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 357 [FAILED]
+user input: estado del contrato 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 358 [FAILED]
+user input: qué estado para 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 359 [FAILED]
+user input: mostrar estado del contrato para 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 360 [FAILED]
+user input: está activo 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 361 [FAILED]
+user input: estado del contrato para 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 362 [FAILED]
+user input: Cuál es el tiempo de entrega para la parte AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 363 [FAILED]
+user input: Mostrar detalles de la parte BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 364 [FAILED]
+user input: Cuál es el tiempo de entrega para la parte DE23456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 365 [FAILED]
+user input: Mostrar tiempo de entrega para FG78901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 366 [FAILED]
+user input: Cuál es el tiempo de entrega para la parte HI34567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 367 [FAILED]
+user input: Obtener información de la parte JK89012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 368 [FAILED]
+user input: Mostrar información de la parte LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 369 [FAILED]
+user input: Qué detalles de la parte NO90123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 370 [FAILED]
+user input: Obtener datos de la parte PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 371 [FAILED]
+user input: Mostrar resumen de la parte RS12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 372 [FAILED]
+user input: Cuál es el precio de la parte AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 373 [FAILED]
+user input: Mostrar precio de la parte BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 374 [FAILED]
+user input: Cuál es el costo de la parte DE23456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 375 [FAILED]
+user input: Obtener información de precio para FG78901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 376 [FAILED]
+user input: Mostrar precios para la parte HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 377 [FAILED]
+user input: Cuál es el precio de JK89012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 378 [FAILED]
+user input: Costo de la parte LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 379 [FAILED]
+user input: Detalles de precio para NO90123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 380 [FAILED]
+user input: Mostrar precio de la parte PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 381 [FAILED]
+user input: Qué precio para RS12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 382 [FAILED]
+user input: Cuál es el MOQ para la parte AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 383 [FAILED]
+user input: Mostrar pedido mínimo para BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 384 [FAILED]
+user input: Cuál es la cantidad mínima de pedido para DE23456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 385 [FAILED]
+user input: MOQ para la parte FG78901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 386 [FAILED]
+user input: Cantidad mínima de pedido para HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 387 [FAILED]
+user input: Qué UOM para la parte JK89012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 388 [FAILED]
+user input: Mostrar unidad de medida para LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 389 [FAILED]
+user input: UOM para NO90123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 390 [FAILED]
+user input: Unidad de medida para PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 391 [FAILED]
+user input: Qué unidad para la parte RS12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 392 [FAILED]
+user input: Cuál es el estado de la parte AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 393 [FAILED]
+user input: Mostrar estado de la parte BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 394 [FAILED]
+user input: Estado para la parte DE23456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 395 [FAILED]
+user input: Qué estado FG78901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 396 [FAILED]
+user input: Mostrar estado de la parte HI34567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 397 [FAILED]
+user input: Está activa la parte JK89012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 398 [FAILED]
+user input: Estado de la parte LM45678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 399 [FAILED]
+user input: Cuál es el estado de NO90123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 400 [FAILED]
+user input: Mostrar estado para PQ56789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 401 [FAILED]
+user input: Información de estado para RS12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 402 [FAILED]
+user input: Mostrar partes fallidas para 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 403 [FAILED]
+user input: Qué parte falló para 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 404 [FAILED]
+user input: Listar partes fallidas para 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 405 [FAILED]
+user input: Mostrar parte fallida para 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 406 [FAILED]
+user input: Qué partes fallaron en 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 407 [FAILED]
+user input: Obtener partes fallidas para 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 408 [FAILED]
+user input: Mostrar partes que fallan para 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 409 [FAILED]
+user input: Listar parte fallida para 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 410 [FAILED]
+user input: Qué partes fallidas para 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 411 [FAILED]
+user input: Mostrar todas las partes fallidas para 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 412 [FAILED]
+user input: Por qué fallaron las partes para 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 413 [FAILED]
+user input: Mostrar razones de error para 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 414 [FAILED]
+user input: Qué errores para partes fallidas 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 415 [FAILED]
+user input: Por qué fallaron las partes en 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 416 [FAILED]
+user input: Mostrar razones de falla para 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 417 [FAILED]
+user input: Qué causó que las partes fallaran para 678901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 418 [FAILED]
+user input: Detalles de error para partes fallidas 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 419 [FAILED]
+user input: Por qué fallaron las partes en 890123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 420 [FAILED]
+user input: Mostrar información de error para 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 421 [FAILED]
+user input: Qué errores causaron la falla para 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 422 [FAILED]
+user input: Mostrar detalles del contrato y partes fallidas para 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 423 [FAILED]
+user input: Cuál es la fecha efectiva y errores de partes para 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 424 [FAILED]
+user input: Listar todas las partes e información del cliente para contrato 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 425 [FAILED]
+user input: Mostrar información del contrato y parte fallida para 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 426 [FAILED]
+user input: Obtener nombre del cliente y errores de partes para 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 427 [FAILED]
+user input: háblame sobre el contrato 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 428 [FAILED]
+user input: necesito información sobre 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 429 [FAILED]
+user input: puedes mostrarme 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 430 [FAILED]
+user input: qué sabes sobre el contrato 456789
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 431 [FAILED]
+user input: dame detalles para 567890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 432 [FAILED]
+user input: quiero ver 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 433 [FAILED]
+user input: por favor muestra 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 434 [FAILED]
+user input: puedo obtener información sobre 890123
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 435 [FAILED]
+user input: ayúdame con el contrato 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 436 [FAILED]
+user input: necesito ayuda con 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 437 [FAILED]
+user input: qué pasa con 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 438 [FAILED]
+user input: cómo se ve 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 439 [FAILED]
+user input: algo malo con 345678?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 440 [FAILED]
+user input: está bien 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 441 [FAILED]
+user input: problemas con 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 442 [FAILED]
+user input: problemas con 678901?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 443 [FAILED]
+user input: problemas con 789012?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 444 [FAILED]
+user input: preocupaciones sobre 890123?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 445 [FAILED]
+user input: estado de 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 446 [FAILED]
+user input: actualización de 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 447 [FAILED]
+user input: Mostrar todos los contratos activos
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 448 [FAILED]
+user input: Cuál es el valor total de contratos expirados?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 449 [FAILED]
+user input: Mostrar los 10 mejores clientes por valor de contrato
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 450 [FAILED]
+user input: Qué partes tienen la tasa de falla más alta?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 451 [FAILED]
+user input: Cuáles son las razones de error más comunes?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 452 [FAILED]
+user input: Podrías por favor mostrarme los detalles del contrato 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 453 [FAILED]
+user input: Te importaría decirme el precio de la parte AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 454 [FAILED]
+user input: Agradecería si pudieras proporcionar información del contrato 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 455 [FAILED]
+user input: Puedo por favor ver las partes fallidas del contrato 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 456 [FAILED]
+user input: Sería posible obtener el nombre del cliente para el contrato 234567?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 457 [FAILED]
+user input: Oye, cuál es el problema con el contrato 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 458 [FAILED]
+user input: Entonces, háblame sobre la parte AE12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 459 [FAILED]
+user input: Bien, necesito saber sobre el contrato 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 460 [FAILED]
+user input: Mira, puedes solo mostrarme las partes fallidas para 123456?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 461 [FAILED]
+user input: Escucha, cuál es el precio de la parte BC67890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 462 [FAILED]
+user input: Qué pasó con el contrato 123456 ayer?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 463 [FAILED]
+user input: Mostrar partes fallidas recientes para el contrato 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 464 [FAILED]
+user input: Cuál es la última actualización del contrato 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 465 [FAILED]
+user input: Dame el estado de hoy para la parte AE12345
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 466 [FAILED]
+user input: Qué cambió en el contrato 123456 esta semana?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 467 [FAILED]
+user input: Mostrar detalles del contarto 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 468 [FAILED]
+user input: Cual es el precio de la parte AE12345?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 469 [FAILED]
+user input: Informacion del cliente para contrato 234567
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 470 [FAILED]
+user input: Partes fallidas para contarto 123456
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 471 [FAILED]
+user input: Estado del contrato 789012
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 472 [FAILED]
+user input: Mostrar terminos de pago para 345678
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 473 [FAILED]
+user input: Que tipo de contrato es 456789?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 474 [FAILED]
+user input: Cuando expira el contarto 567890?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 475 [FAILED]
+user input: Mostrar cliente para contrato 678901
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 476 [FAILED]
+user input: Informacion de la parte BC67890
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+
+SUMMARY
+=======
+Total test cases: 476
+Total failed cases: 476
+Success rate: 0.00%

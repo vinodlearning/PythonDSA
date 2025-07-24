@@ -1,0 +1,353 @@
+NLP TEST AUDIT - ONLY ERROR/UNHANDLED CASES
+============================================
+Generated: Thu Jul 24 21:59:45 IST 2025
+Total Test Cases: 51
+
+test case 4 [ERROR/UNHANDLED]
+user input: Can you show me how to make a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 5 [ERROR/UNHANDLED]
+user input: What's the process for contract creation?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 6 [ERROR/UNHANDLED]
+user input: I need guidance on creating a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 7 [ERROR/UNHANDLED]
+user input: Walk me through contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 8 [ERROR/UNHANDLED]
+user input: Explain how to set up a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 9 [ERROR/UNHANDLED]
+user input: Instructions for making a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 10 [ERROR/UNHANDLED]
+user input: Need help understanding contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 13 [ERROR/UNHANDLED]
+user input: Please make a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 14 [ERROR/UNHANDLED]
+user input: Generate a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 16 [ERROR/UNHANDLED]
+user input: Set up a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 17 [ERROR/UNHANDLED]
+user input: Make me a contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 18 [ERROR/UNHANDLED]
+user input: Initiate contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 19 [ERROR/UNHANDLED]
+user input: Start a new contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 20 [ERROR/UNHANDLED]
+user input: Could you draft a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 22 [ERROR/UNHANDLED]
+user input: What are the steps to make a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 24 [ERROR/UNHANDLED]
+user input: Could you provide contract creation instructions?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 25 [ERROR/UNHANDLED]
+user input: I would like to know the contract creation process
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 26 [ERROR/UNHANDLED]
+user input: How too creat a contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 27 [ERROR/UNHANDLED]
+user input: Steps for makeing a contrakt
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 28 [ERROR/UNHANDLED]
+user input: Creat a contract pls
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 29 [ERROR/UNHANDLED]
+user input: Plz make contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 31 [ERROR/UNHANDLED]
+user input: How 2 make contract?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 33 [ERROR/UNHANDLED]
+user input: Steps contract creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 34 [ERROR/UNHANDLED]
+user input: Make contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 35 [ERROR/UNHANDLED]
+user input: Contract how make?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 36 [ERROR/UNHANDLED]
+user input: Creation steps contract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 40 [ERROR/UNHANDLED]
+user input: contract (how to)?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 41 [ERROR/UNHANDLED]
+user input: contractcreation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 42 [ERROR/UNHANDLED]
+user input: contract     make
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 43 [ERROR/UNHANDLED]
+user input: contract; creation
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 44 [ERROR/UNHANDLED]
+user input: contract@create
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 45 [ERROR/UNHANDLED]
+user input: #createcontract
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 46 [ERROR/UNHANDLED]
+user input: contract*creation*help
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 47 [ERROR/UNHANDLED]
+user input: ctrct
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 48 [ERROR/UNHANDLED]
+user input: mk
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 49 [ERROR/UNHANDLED]
+user input: how
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 50 [ERROR/UNHANDLED]
+user input: Could you possibly be so kind as to tell me the exact step-by-step process for creating a new contractual agreement in this system?
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_USER
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+test case 51 [ERROR/UNHANDLED]
+user input: I would really appreciate if you could immediately generate for me a complete contract document with all standard terms and conditions included
+corrected input: 
+filters entities: []
+display entities: []
+query: ERROR
+action type: UNHANDLED_CASE-HELP_CONTRACT_CREATE_BOT
+sql: <p><b>Unknown action type:</b> UNHANDLED_CASE</p>
+--------------------------------------------------
+
+SUMMARY
+=======
+Total test cases: 51
+Total error/unhandled cases: 38
+Error/Unhandled rate: 74.51%

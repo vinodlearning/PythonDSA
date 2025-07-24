@@ -1,0 +1,3831 @@
+=== ENHANCED STANDARDJSONPROCESSOR TEST RESULTS ===
+Testing improved display and filter entity extraction
+
+=== Query 1: What is the effective date for contract 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    EFFECTIVE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: What is the effective date for contract 123456?
+  Corrected: What is the effective date for contract 123456?
+  Confidence: 0.0
+---
+
+=== Query 2: Show me contract details for 789012 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: Show me contract details for 789012
+  Corrected: Show me contract details for 789012
+  Confidence: 0.0
+---
+
+=== Query 3: When does contract 456789 expire? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: When does contract 456789 expire?
+  Corrected: When does contract 456789 expire?
+  Confidence: 0.0
+---
+
+=== Query 4: What's the expiration date for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: What's the expiration date for 234567?
+  Corrected: What's the expiration date for 234567?
+  Confidence: 0.0
+---
+
+=== Query 5: Get contract information for 345678 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: Get contract information for 345678
+  Corrected: Get contract information for 345678
+  Confidence: 0.0
+---
+
+=== Query 6: Whats the effective date for 567890? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    EFFECTIVE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: Whats the effective date for 567890?
+  Corrected: Whats the effective date for 567890?
+  Confidence: 0.0
+---
+
+=== Query 7: Show contract 678901 details ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: Show contract 678901 details
+  Corrected: Show contract 678901 details
+  Confidence: 0.0
+---
+
+=== Query 8: What is effective date of 789012? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    EFFECTIVE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: What is effective date of 789012?
+  Corrected: What is effective date of 789012?
+  Confidence: 0.0
+---
+
+=== Query 9: Get contract info for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: Get contract info for 890123
+  Corrected: Get contract info for 890123
+  Confidence: 0.0
+---
+
+=== Query 10: Show me contract 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: Show me contract 123456
+  Corrected: Show me contract 123456
+  Confidence: 0.0
+---
+
+=== Query 11: whos the customer for contract 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: whos the customer for contract 123456?
+  Corrected: whos the customer for contract 123456?
+  Confidence: 0.0
+---
+
+=== Query 12: customer name for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: customer name for 234567
+  Corrected: customer name for 234567
+  Confidence: 0.0
+---
+
+=== Query 13: what customer for contract 345678? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: what customer for contract 345678?
+  Corrected: what customer for contract 345678?
+  Confidence: 0.0
+---
+
+=== Query 14: show customer for 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: show customer for 456789
+  Corrected: show customer for 456789
+  Confidence: 0.0
+---
+
+=== Query 15: customer details for 567890 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: customer details for 567890
+  Corrected: customer details for 567890
+  Confidence: 0.0
+---
+
+=== Query 16: who is customer for 678901? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: who is customer for 678901?
+  Corrected: who is customer for 678901?
+  Confidence: 0.0
+---
+
+=== Query 17: get customer info for contract 789012 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: get customer info for contract 789012
+  Corrected: get customer info for contract 789012
+  Confidence: 0.0
+---
+
+=== Query 18: customer number for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CUSTOMER_NUMBER
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: customer number for 890123
+  Corrected: customer number for 890123
+  Confidence: 0.0
+---
+
+=== Query 19: show customer number for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CUSTOMER_NAME
+  - CUSTOMER_NUMBER
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: show customer number for 123456
+  Corrected: show customer number for 123456
+  Confidence: 0.0
+---
+
+=== Query 20: what customer number for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CUSTOMER_NAME
+  - CUSTOMER_NUMBER
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: what customer number for 234567?
+  Corrected: what customer number for 234567?
+  Confidence: 0.0
+---
+
+=== Query 21: payment terms for contract 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PAYMENT_TERMS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: payment terms for contract 123456
+  Corrected: payment terms for contract 123456
+  Confidence: 0.0
+---
+
+=== Query 22: what are payment terms for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PAYMENT_TERMS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: what are payment terms for 234567?
+  Corrected: what are payment terms for 234567?
+  Confidence: 0.0
+---
+
+=== Query 23: show payment term for 345678 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: show payment term for 345678
+  Corrected: show payment term for 345678
+  Confidence: 0.0
+---
+
+=== Query 24: payment terms for 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PAYMENT_TERMS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: payment terms for 456789
+  Corrected: payment terms for 456789
+  Confidence: 0.0
+---
+
+=== Query 25: what payment for contract 567890? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: what payment for contract 567890?
+  Corrected: what payment for contract 567890?
+  Confidence: 0.0
+---
+
+=== Query 26: incoterms for contract 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    INCOTERMS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: incoterms for contract 678901
+  Corrected: incoterms for contract 678901
+  Confidence: 0.0
+---
+
+=== Query 27: what incoterms for 789012? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    INCOTERMS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: what incoterms for 789012?
+  Corrected: what incoterms for 789012?
+  Confidence: 0.0
+---
+
+=== Query 28: show incoterms for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    INCOTERMS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: show incoterms for 890123
+  Corrected: show incoterms for 890123
+  Confidence: 0.0
+---
+
+=== Query 29: contract length for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_LENGTH
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: contract length for 123456
+  Corrected: contract length for 123456
+  Confidence: 0.0
+---
+
+=== Query 30: what contract length for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_LENGTH
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: what contract length for 234567?
+  Corrected: what contract length for 234567?
+  Confidence: 0.0
+---
+
+=== Query 31: price expiration date for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    EXPIRATION_DATE
+  - PRICE_EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: price expiration date for 123456
+  Corrected: price expiration date for 123456
+  Confidence: 0.0
+---
+
+=== Query 32: when price expire for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    EXPIRATION_DATE
+  - PRICE_EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: when price expire for 234567?
+  Corrected: when price expire for 234567?
+  Confidence: 0.0
+---
+
+=== Query 33: price expiry for contract 345678 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE_EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: price expiry for contract 345678
+  Corrected: price expiry for contract 345678
+  Confidence: 0.0
+---
+
+=== Query 34: show price expiration for 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE_EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: show price expiration for 456789
+  Corrected: show price expiration for 456789
+  Confidence: 0.0
+---
+
+=== Query 35: what price expire date for 567890? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    EXPIRATION_DATE
+  - PRICE_EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: what price expire date for 567890?
+  Corrected: what price expire date for 567890?
+  Confidence: 0.0
+---
+
+=== Query 36: creation date for contract 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CREATE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: creation date for contract 678901
+  Corrected: creation date for contract 678901
+  Confidence: 0.0
+---
+
+=== Query 37: when was 789012 created? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CREATE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: when was 789012 created?
+  Corrected: when was 789012 created?
+  Confidence: 0.0
+---
+
+=== Query 38: create date for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CREATE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: create date for 890123
+  Corrected: create date for 890123
+  Confidence: 0.0
+---
+
+=== Query 39: show creation for contract 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: show creation for contract 123456
+  Corrected: show creation for contract 123456
+  Confidence: 0.0
+---
+
+=== Query 40: when created 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CREATE_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: when created 234567?
+  Corrected: when created 234567?
+  Confidence: 0.0
+---
+
+=== Query 41: what type of contract 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_TYPE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: what type of contract 123456?
+  Corrected: what type of contract 123456?
+  Confidence: 0.0
+---
+
+=== Query 42: contract type for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_TYPE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: contract type for 234567
+  Corrected: contract type for 234567
+  Confidence: 0.0
+---
+
+=== Query 43: show contract type for 345678 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_TYPE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: show contract type for 345678
+  Corrected: show contract type for 345678
+  Confidence: 0.0
+---
+
+=== Query 44: what kind contract 456789? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_TYPE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: what kind contract 456789?
+  Corrected: what kind contract 456789?
+  Confidence: 0.0
+---
+
+=== Query 45: type of contract 567890 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    CONTRACT_TYPE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: type of contract 567890
+  Corrected: type of contract 567890
+  Confidence: 0.0
+---
+
+=== Query 46: status of contract 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: status of contract 678901
+  Corrected: status of contract 678901
+  Confidence: 0.0
+---
+
+=== Query 47: what status for 789012? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: what status for 789012?
+  Corrected: what status for 789012?
+  Confidence: 0.0
+---
+
+=== Query 48: show contract status for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: show contract status for 890123
+  Corrected: show contract status for 890123
+  Confidence: 0.0
+---
+
+=== Query 49: is 123456 active? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'ACTIVE'
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: is 123456 active?
+  Corrected: is 123456 active?
+  Confidence: 0.0
+---
+
+=== Query 50: contract status for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: contract status for 234567
+  Corrected: contract status for 234567
+  Confidence: 0.0
+---
+
+=== Query 51: show all details for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: show all details for 123456
+  Corrected: show all details for 123456
+  Confidence: 0.0
+---
+
+=== Query 52: get everything for contract 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: get everything for contract 234567
+  Corrected: get everything for contract 234567
+  Confidence: 0.0
+---
+
+=== Query 53: full info for 345678 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: full info for 345678
+  Corrected: full info for 345678
+  Confidence: 0.0
+---
+
+=== Query 54: complete details contract 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: complete details contract 456789
+  Corrected: complete details contract 456789
+  Confidence: 0.0
+---
+
+=== Query 55: show summary for 567890 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: show summary for 567890
+  Corrected: show summary for 567890
+  Confidence: 0.0
+---
+
+=== Query 56: overview of contract 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: overview of contract 678901
+  Corrected: overview of contract 678901
+  Confidence: 0.0
+---
+
+=== Query 57: brief for 789012 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: brief for 789012
+  Corrected: brief for 789012
+  Confidence: 0.0
+---
+
+=== Query 58: quick info 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: quick info 890123
+  Corrected: quick info 890123
+  Confidence: 0.0
+---
+
+=== Query 59: details about 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: details about 123456
+  Corrected: details about 123456
+  Confidence: 0.0
+---
+
+=== Query 60: information on contract 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: information on contract 234567
+  Corrected: information on contract 234567
+  Confidence: 0.0
+---
+
+=== Query 61: What is the lead time for part AE12345? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    LEAD_TIME
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'AE12345'
+Spell Corrections:
+  Original: What is the lead time for part AE12345?
+  Corrected: What is the lead time for part AE12345?
+  Confidence: 0.0
+---
+
+=== Query 62: Show me part details for BC67890 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DETAILS'
+Spell Corrections:
+  Original: Show me part details for BC67890
+  Corrected: Show me part details for BC67890
+  Confidence: 0.0
+---
+
+=== Query 63: What lead time for part DE23456? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    LEAD_TIME
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DE23456'
+Spell Corrections:
+  Original: What lead time for part DE23456?
+  Corrected: What lead time for part DE23456?
+  Confidence: 0.0
+---
+
+=== Query 64: Show lead time for FG78901 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show lead time for FG78901
+  Corrected: Show lead time for FG78901
+  Confidence: 0.0
+---
+
+=== Query 65: What's the lead time for part HI34567? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    LEAD_TIME
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'HI34567'
+Spell Corrections:
+  Original: What's the lead time for part HI34567?
+  Corrected: What's the lead time for part HI34567?
+  Confidence: 0.0
+---
+
+=== Query 66: Get part information for JK89012 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'INFORMATION'
+Spell Corrections:
+  Original: Get part information for JK89012
+  Corrected: Get part information for JK89012
+  Confidence: 0.0
+---
+
+=== Query 67: Show part info for LM45678 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'INFO'
+Spell Corrections:
+  Original: Show part info for LM45678
+  Corrected: Show part info for LM45678
+  Confidence: 0.0
+---
+
+=== Query 68: What part details for NO90123? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DETAILS'
+Spell Corrections:
+  Original: What part details for NO90123?
+  Corrected: What part details for NO90123?
+  Confidence: 0.0
+---
+
+=== Query 69: Get part data for PQ56789 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DATA'
+Spell Corrections:
+  Original: Get part data for PQ56789
+  Corrected: Get part data for PQ56789
+  Confidence: 0.0
+---
+
+=== Query 70: Show part summary for RS12345 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'SUMMARY'
+Spell Corrections:
+  Original: Show part summary for RS12345
+  Corrected: Show part summary for RS12345
+  Confidence: 0.0
+---
+
+=== Query 71: What's the price for part AE12345? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'AE12345'
+Spell Corrections:
+  Original: What's the price for part AE12345?
+  Corrected: What's the price for part AE12345?
+  Confidence: 0.0
+---
+
+=== Query 72: Show price for part BC67890 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'BC67890'
+Spell Corrections:
+  Original: Show price for part BC67890
+  Corrected: Show price for part BC67890
+  Confidence: 0.0
+---
+
+=== Query 73: What cost for part DE23456? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DE23456'
+Spell Corrections:
+  Original: What cost for part DE23456?
+  Corrected: What cost for part DE23456?
+  Confidence: 0.0
+---
+
+=== Query 74: Get price info for FG78901 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Get price info for FG78901
+  Corrected: Get price info for FG78901
+  Confidence: 0.0
+---
+
+=== Query 75: Show pricing for part HI34567 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'HI34567'
+Spell Corrections:
+  Original: Show pricing for part HI34567
+  Corrected: Show pricing for part HI34567
+  Confidence: 0.0
+---
+
+=== Query 76: What's the price for JK89012 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What's the price for JK89012
+  Corrected: What's the price for JK89012
+  Confidence: 0.0
+---
+
+=== Query 77: Cost of part LM45678 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'LM45678'
+Spell Corrections:
+  Original: Cost of part LM45678
+  Corrected: Cost of part LM45678
+  Confidence: 0.0
+---
+
+=== Query 78: Price details for NO90123 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Price details for NO90123
+  Corrected: Price details for NO90123
+  Confidence: 0.0
+---
+
+=== Query 79: Show part price for PQ56789 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PRICE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show part price for PQ56789
+  Corrected: Show part price for PQ56789
+  Confidence: 0.0
+---
+
+=== Query 80: What pricing for RS12345? ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What pricing for RS12345?
+  Corrected: What pricing for RS12345?
+  Confidence: 0.0
+---
+
+=== Query 81: What's the MOQ for part AE12345? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    MOQ
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'AE12345'
+Spell Corrections:
+  Original: What's the MOQ for part AE12345?
+  Corrected: What's the MOQ for part AE12345?
+  Confidence: 0.0
+---
+
+=== Query 82: Show minimum order for BC67890 ===
+Action Type: contracts_by_filter
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show minimum order for BC67890
+  Corrected: Show minimum order for BC67890
+  Confidence: 0.0
+---
+
+=== Query 83: What min order qty for DE23456? ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What min order qty for DE23456?
+  Corrected: What min order qty for DE23456?
+  Confidence: 0.0
+---
+
+=== Query 84: MOQ for part FG78901 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    MOQ
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'FG78901'
+Spell Corrections:
+  Original: MOQ for part FG78901
+  Corrected: MOQ for part FG78901
+  Confidence: 0.0
+---
+
+=== Query 85: Minimum order quantity for HI34567 ===
+Action Type: contracts_by_filter
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Minimum order quantity for HI34567
+  Corrected: Minimum order quantity for HI34567
+  Confidence: 0.0
+---
+
+=== Query 86: What UOM for part JK89012? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    UOM
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'JK89012'
+Spell Corrections:
+  Original: What UOM for part JK89012?
+  Corrected: What UOM for part JK89012?
+  Confidence: 0.0
+---
+
+=== Query 87: Show unit of measure for LM45678 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show unit of measure for LM45678
+  Corrected: Show unit of measure for LM45678
+  Confidence: 0.0
+---
+
+=== Query 88: UOM for NO90123 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: UOM for NO90123
+  Corrected: UOM for NO90123
+  Confidence: 0.0
+---
+
+=== Query 89: Unit measure for PQ56789 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Unit measure for PQ56789
+  Corrected: Unit measure for PQ56789
+  Confidence: 0.0
+---
+
+=== Query 90: What unit for part RS12345? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    UOM
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'RS12345'
+Spell Corrections:
+  Original: What unit for part RS12345?
+  Corrected: What unit for part RS12345?
+  Confidence: 0.0
+---
+
+=== Query 91: What's the status of part AE12345? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'AE12345'
+Spell Corrections:
+  Original: What's the status of part AE12345?
+  Corrected: What's the status of part AE12345?
+  Confidence: 0.0
+---
+
+=== Query 92: Show part status for BC67890 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show part status for BC67890
+  Corrected: Show part status for BC67890
+  Confidence: 0.0
+---
+
+=== Query 93: Status for part DE23456 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DE23456'
+Spell Corrections:
+  Original: Status for part DE23456
+  Corrected: Status for part DE23456
+  Confidence: 0.0
+---
+
+=== Query 94: What status FG78901? ===
+Action Type: contracts_by_filter
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What status FG78901?
+  Corrected: What status FG78901?
+  Confidence: 0.0
+---
+
+=== Query 95: Show part status for HI34567 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show part status for HI34567
+  Corrected: Show part status for HI34567
+  Confidence: 0.0
+---
+
+=== Query 96: Is part JK89012 active? ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - STATUS = 'ACTIVE'
+  - INVOICE_PART_NUMBER = 'JK89012'
+Spell Corrections:
+  Original: Is part JK89012 active?
+  Corrected: Is part JK89012 active?
+  Confidence: 0.0
+---
+
+=== Query 97: Part status for LM45678 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Part status for LM45678
+  Corrected: Part status for LM45678
+  Confidence: 0.0
+---
+
+=== Query 98: What's status of NO90123? ===
+Action Type: contracts_by_filter
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What's status of NO90123?
+  Corrected: What's status of NO90123?
+  Confidence: 0.0
+---
+
+=== Query 99: Show status for PQ56789 ===
+Action Type: contracts_by_filter
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show status for PQ56789
+  Corrected: Show status for PQ56789
+  Confidence: 0.0
+---
+
+=== Query 100: Status info for RS12345 ===
+Action Type: contracts_by_filter
+Query Type: CONTRACTS
+Display Entities (3):
+  - 
+    STATUS
+  - CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Status info for RS12345
+  Corrected: Status info for RS12345
+  Confidence: 0.0
+---
+
+=== Query 101: What's the item classification for AE12345? ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'CLASSIFICATION'
+Spell Corrections:
+  Original: What's the item classification for AE12345?
+  Corrected: What's the item classification for AE12345?
+  Confidence: 0.0
+---
+
+=== Query 102: Show item class for BC67890 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'CLASS'
+Spell Corrections:
+  Original: Show item class for BC67890
+  Corrected: Show item class for BC67890
+  Confidence: 0.0
+---
+
+=== Query 103: Classification for part DE23456 ===
+Action Type: parts_by_part_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ITEM_CLASSIFICATION
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'DE23456'
+Spell Corrections:
+  Original: Classification for part DE23456
+  Corrected: Classification for part DE23456
+  Confidence: 0.0
+---
+
+=== Query 104: What class for FG78901? ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What class for FG78901?
+  Corrected: What class for FG78901?
+  Confidence: 0.0
+---
+
+=== Query 105: Item classification HI34567 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'CLASSIFICATION'
+Spell Corrections:
+  Original: Item classification HI34567
+  Corrected: Item classification HI34567
+  Confidence: 0.0
+---
+
+=== Query 106: Show classification for JK89012 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show classification for JK89012
+  Corrected: Show classification for JK89012
+  Confidence: 0.0
+---
+
+=== Query 107: What item class for LM45678? ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'CLASS'
+Spell Corrections:
+  Original: What item class for LM45678?
+  Corrected: What item class for LM45678?
+  Confidence: 0.0
+---
+
+=== Query 108: Classification of NO90123 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Classification of NO90123
+  Corrected: Classification of NO90123
+  Confidence: 0.0
+---
+
+=== Query 109: Item class for PQ56789 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - INVOICE_PART_NUMBER = 'CLASS'
+Spell Corrections:
+  Original: Item class for PQ56789
+  Corrected: Item class for PQ56789
+  Confidence: 0.0
+---
+
+=== Query 110: Show class for RS12345 ===
+Action Type: contracts_search
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show class for RS12345
+  Corrected: Show class for RS12345
+  Confidence: 0.0
+---
+
+=== Query 111: Show me invoice parts for 123456 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: Show me invoice parts for 123456
+  Corrected: Show me invoice parts for 123456
+  Confidence: 0.0
+---
+
+=== Query 112: What invoice part for 234567? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '234567'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: What invoice part for 234567?
+  Corrected: What invoice part for 234567?
+  Confidence: 0.0
+---
+
+=== Query 113: List invoice parts for 345678 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '345678'
+Spell Corrections:
+  Original: List invoice parts for 345678
+  Corrected: List invoice parts for 345678
+  Confidence: 0.0
+---
+
+=== Query 114: Show invoice part for 456789 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '456789'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: Show invoice part for 456789
+  Corrected: Show invoice part for 456789
+  Confidence: 0.0
+---
+
+=== Query 115: What invoice parts in 567890? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '567890'
+Spell Corrections:
+  Original: What invoice parts in 567890?
+  Corrected: What invoice parts in 567890?
+  Confidence: 0.0
+---
+
+=== Query 116: Get invoice part for 678901 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '678901'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: Get invoice part for 678901
+  Corrected: Get invoice part for 678901
+  Confidence: 0.0
+---
+
+=== Query 117: Show invoice parts for 789012 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '789012'
+Spell Corrections:
+  Original: Show invoice parts for 789012
+  Corrected: Show invoice parts for 789012
+  Confidence: 0.0
+---
+
+=== Query 118: List invoice part for 890123 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '890123'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: List invoice part for 890123
+  Corrected: List invoice part for 890123
+  Confidence: 0.0
+---
+
+=== Query 119: What invoice parts for 123456? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: What invoice parts for 123456?
+  Corrected: What invoice parts for 123456?
+  Confidence: 0.0
+---
+
+=== Query 120: Show all invoice part for 234567 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '234567'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: Show all invoice part for 234567
+  Corrected: Show all invoice part for 234567
+  Confidence: 0.0
+---
+
+=== Query 121: Show me all parts for contract 123456 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: Show me all parts for contract 123456
+  Corrected: Show me all parts for contract 123456
+  Confidence: 0.0
+---
+
+=== Query 122: What parts in 234567? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '234567'
+Spell Corrections:
+  Original: What parts in 234567?
+  Corrected: What parts in 234567?
+  Confidence: 0.0
+---
+
+=== Query 123: List part for contract 345678 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '345678'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: List part for contract 345678
+  Corrected: List part for contract 345678
+  Confidence: 0.0
+---
+
+=== Query 124: Show parts for contract 456789 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '456789'
+Spell Corrections:
+  Original: Show parts for contract 456789
+  Corrected: Show parts for contract 456789
+  Confidence: 0.0
+---
+
+=== Query 125: What parts loaded in 567890? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '567890'
+Spell Corrections:
+  Original: What parts loaded in 567890?
+  Corrected: What parts loaded in 567890?
+  Confidence: 0.0
+---
+
+=== Query 126: Get parts for contract 678901 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '678901'
+Spell Corrections:
+  Original: Get parts for contract 678901
+  Corrected: Get parts for contract 678901
+  Confidence: 0.0
+---
+
+=== Query 127: Show all part for 789012 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '789012'
+  - INVOICE_PART_NUMBER = 'FOR'
+Spell Corrections:
+  Original: Show all part for 789012
+  Corrected: Show all part for 789012
+  Confidence: 0.0
+---
+
+=== Query 128: List parts in contract 890123 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '890123'
+Spell Corrections:
+  Original: List parts in contract 890123
+  Corrected: List parts in contract 890123
+  Confidence: 0.0
+---
+
+=== Query 129: What parts for 123456? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: What parts for 123456?
+  Corrected: What parts for 123456?
+  Confidence: 0.0
+---
+
+=== Query 130: Show part list for 234567 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '234567'
+  - INVOICE_PART_NUMBER = 'LIST'
+Spell Corrections:
+  Original: Show part list for 234567
+  Corrected: Show part list for 234567
+  Confidence: 0.0
+---
+
+=== Query 131: What parts failed in 567890? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    PASRT_NUMEBR
+  - ERROR_COLUMN
+  - LAODED_CP_NUMBER
+  - REASON
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '567890'
+Spell Corrections:
+  Original: What parts failed in 567890?
+  Corrected: What parts failed in 567890?
+  Confidence: 0.0
+---
+
+=== Query 132: Get failed parts for 678901 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '678901'
+Spell Corrections:
+  Original: Get failed parts for 678901
+  Corrected: Get failed parts for 678901
+  Confidence: 0.0
+---
+
+=== Query 133: Show failing parts for 789012 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show failing parts for 789012
+  Corrected: Show failing parts for 789012
+  Confidence: 0.0
+---
+
+=== Query 134: List failed part for 890123 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: List failed part for 890123
+  Corrected: List failed part for 890123
+  Confidence: 0.0
+---
+
+=== Query 135: What failed parts for 123456? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: What failed parts for 123456?
+  Corrected: What failed parts for 123456?
+  Confidence: 0.0
+---
+
+=== Query 136: Show all failed part for 234567 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show all failed part for 234567
+  Corrected: Show all failed part for 234567
+  Confidence: 0.0
+---
+
+=== Query 137: Why did parts fail for 123456? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Why did parts fail for 123456?
+  Corrected: Why did parts fail for 123456?
+  Confidence: 0.0
+---
+
+=== Query 138: Show error reasons for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: Show error reasons for 234567
+  Corrected: Show error reasons for 234567
+  Confidence: 0.0
+---
+
+=== Query 139: What errors for failed parts 345678? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    ERROR_COLUMN
+  - PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '345678'
+Spell Corrections:
+  Original: What errors for failed parts 345678?
+  Corrected: What errors for failed parts 345678?
+  Confidence: 0.0
+---
+
+=== Query 140: Why parts failed in 456789? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    REASON
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '456789'
+Spell Corrections:
+  Original: Why parts failed in 456789?
+  Corrected: Why parts failed in 456789?
+  Confidence: 0.0
+---
+
+=== Query 141: Show failure reasons for 567890 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: Show failure reasons for 567890
+  Corrected: Show failure reasons for 567890
+  Confidence: 0.0
+---
+
+=== Query 142: What caused parts to fail for 678901? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: What caused parts to fail for 678901?
+  Corrected: What caused parts to fail for 678901?
+  Confidence: 0.0
+---
+
+=== Query 143: Error details for failed parts 789012 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    ERROR_COLUMN
+  - PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '789012'
+Spell Corrections:
+  Original: Error details for failed parts 789012
+  Corrected: Error details for failed parts 789012
+  Confidence: 0.0
+---
+
+=== Query 144: Why failed parts in 890123? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    REASON
+  - PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '890123'
+Spell Corrections:
+  Original: Why failed parts in 890123?
+  Corrected: Why failed parts in 890123?
+  Confidence: 0.0
+---
+
+=== Query 145: Show error info for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: Show error info for 123456
+  Corrected: Show error info for 123456
+  Confidence: 0.0
+---
+
+=== Query 146: What errors caused failure for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: What errors caused failure for 234567?
+  Corrected: What errors caused failure for 234567?
+  Confidence: 0.0
+---
+
+=== Query 147: Show me part errors for 123456 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    ERROR_COLUMN
+  - PASRT_NUMEBR
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '123456'
+  - INVOICE_PART_NUMBER = 'ERRORS'
+Spell Corrections:
+  Original: Show me part errors for 123456
+  Corrected: Show me part errors for 123456
+  Confidence: 0.0
+---
+
+=== Query 148: What part error for 234567? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    ERROR_COLUMN
+  - PASRT_NUMEBR
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '234567'
+  - INVOICE_PART_NUMBER = 'ERROR'
+Spell Corrections:
+  Original: What part error for 234567?
+  Corrected: What part error for 234567?
+  Confidence: 0.0
+---
+
+=== Query 149: List parts with errors for 345678 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '345678'
+Spell Corrections:
+  Original: List parts with errors for 345678
+  Corrected: List parts with errors for 345678
+  Confidence: 0.0
+---
+
+=== Query 150: Show error parts for 456789 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '456789'
+Spell Corrections:
+  Original: Show error parts for 456789
+  Corrected: Show error parts for 456789
+  Confidence: 0.0
+---
+
+=== Query 151: What parts have errors in 567890? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '567890'
+Spell Corrections:
+  Original: What parts have errors in 567890?
+  Corrected: What parts have errors in 567890?
+  Confidence: 0.0
+---
+
+=== Query 152: Get parts errors for 678901 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '678901'
+Spell Corrections:
+  Original: Get parts errors for 678901
+  Corrected: Get parts errors for 678901
+  Confidence: 0.0
+---
+
+=== Query 153: Show parts with issues for 789012 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    PASRT_NUMEBR
+  - ERROR_COLUMN
+  - LAODED_CP_NUMBER
+  - REASON
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - LOADED_CP_NUMBER = '789012'
+Spell Corrections:
+  Original: Show parts with issues for 789012
+  Corrected: Show parts with issues for 789012
+  Confidence: 0.0
+---
+
+=== Query 154: List error parts for 890123 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '890123'
+Spell Corrections:
+  Original: List error parts for 890123
+  Corrected: List error parts for 890123
+  Confidence: 0.0
+---
+
+=== Query 155: What parts errors for 123456? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: What parts errors for 123456?
+  Corrected: What parts errors for 123456?
+  Confidence: 0.0
+---
+
+=== Query 156: Show all error parts for 234567 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '234567'
+Spell Corrections:
+  Original: Show all error parts for 234567
+  Corrected: Show all error parts for 234567
+  Confidence: 0.0
+---
+
+=== Query 157: What columns have errors for 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: What columns have errors for 123456?
+  Corrected: What columns have errors for 123456?
+  Confidence: 0.0
+---
+
+=== Query 158: Show error columns for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: Show error columns for 234567
+  Corrected: Show error columns for 234567
+  Confidence: 0.0
+---
+
+=== Query 159: Which columns failed for 345678? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: Which columns failed for 345678?
+  Corrected: Which columns failed for 345678?
+  Confidence: 0.0
+---
+
+=== Query 160: What column errors for 456789? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: What column errors for 456789?
+  Corrected: What column errors for 456789?
+  Confidence: 0.0
+---
+
+=== Query 161: Show failed columns for 567890 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: Show failed columns for 567890
+  Corrected: Show failed columns for 567890
+  Confidence: 0.0
+---
+
+=== Query 162: Error column details for 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: Error column details for 678901
+  Corrected: Error column details for 678901
+  Confidence: 0.0
+---
+
+=== Query 163: What columns with errors for 789012? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: What columns with errors for 789012?
+  Corrected: What columns with errors for 789012?
+  Confidence: 0.0
+---
+
+=== Query 164: Show column failures for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: Show column failures for 890123
+  Corrected: Show column failures for 890123
+  Confidence: 0.0
+---
+
+=== Query 165: Which columns error for 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: Which columns error for 123456?
+  Corrected: Which columns error for 123456?
+  Confidence: 0.0
+---
+
+=== Query 166: Error column info for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: Error column info for 234567
+  Corrected: Error column info for 234567
+  Confidence: 0.0
+---
+
+=== Query 167: Show me parts with missing data for 123456 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: Show me parts with missing data for 123456
+  Corrected: Show me parts with missing data for 123456
+  Confidence: 0.0
+---
+
+=== Query 168: What parts missing info for 234567? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '234567'
+Spell Corrections:
+  Original: What parts missing info for 234567?
+  Corrected: What parts missing info for 234567?
+  Confidence: 0.0
+---
+
+=== Query 169: List parts with no data for 345678 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '345678'
+Spell Corrections:
+  Original: List parts with no data for 345678
+  Corrected: List parts with no data for 345678
+  Confidence: 0.0
+---
+
+=== Query 170: Show incomplete parts for 456789 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '456789'
+Spell Corrections:
+  Original: Show incomplete parts for 456789
+  Corrected: Show incomplete parts for 456789
+  Confidence: 0.0
+---
+
+=== Query 171: What parts missing data in 567890? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '567890'
+Spell Corrections:
+  Original: What parts missing data in 567890?
+  Corrected: What parts missing data in 567890?
+  Confidence: 0.0
+---
+
+=== Query 172: Get parts with missing info for 678901 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '678901'
+Spell Corrections:
+  Original: Get parts with missing info for 678901
+  Corrected: Get parts with missing info for 678901
+  Confidence: 0.0
+---
+
+=== Query 173: Show parts missing data for 789012 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '789012'
+Spell Corrections:
+  Original: Show parts missing data for 789012
+  Corrected: Show parts missing data for 789012
+  Confidence: 0.0
+---
+
+=== Query 174: List incomplete parts for 890123 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '890123'
+Spell Corrections:
+  Original: List incomplete parts for 890123
+  Corrected: List incomplete parts for 890123
+  Confidence: 0.0
+---
+
+=== Query 175: What parts no data for 123456? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: What parts no data for 123456?
+  Corrected: What parts no data for 123456?
+  Confidence: 0.0
+---
+
+=== Query 176: Show missing data parts for 234567 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (7):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  - EAU
+  - UOM
+  - PRICE
+  - ITEM_CLASSIFICATION
+  - LEAD_TIME
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '234567'
+Spell Corrections:
+  Original: Show missing data parts for 234567
+  Corrected: Show missing data parts for 234567
+  Confidence: 0.0
+---
+
+=== Query 177: What errors occurred during loading for 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: What errors occurred during loading for 123456?
+  Corrected: What errors occurred during loading for 123456?
+  Confidence: 0.0
+---
+
+=== Query 178: Show loading errors for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: Show loading errors for 234567
+  Corrected: Show loading errors for 234567
+  Confidence: 0.0
+---
+
+=== Query 179: What load errors for 345678? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: What load errors for 345678?
+  Corrected: What load errors for 345678?
+  Confidence: 0.0
+---
+
+=== Query 180: Show loading issues for 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: Show loading issues for 456789
+  Corrected: Show loading issues for 456789
+  Confidence: 0.0
+---
+
+=== Query 181: What happened during load for 567890? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: What happened during load for 567890?
+  Corrected: What happened during load for 567890?
+  Confidence: 0.0
+---
+
+=== Query 182: Loading error details for 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: Loading error details for 678901
+  Corrected: Loading error details for 678901
+  Confidence: 0.0
+---
+
+=== Query 183: What load problems for 789012? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: What load problems for 789012?
+  Corrected: What load problems for 789012?
+  Confidence: 0.0
+---
+
+=== Query 184: Show load failures for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: Show load failures for 890123
+  Corrected: Show load failures for 890123
+  Confidence: 0.0
+---
+
+=== Query 185: Loading issues for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: Loading issues for 123456
+  Corrected: Loading issues for 123456
+  Confidence: 0.0
+---
+
+=== Query 186: What errors during loading for 234567? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: What errors during loading for 234567?
+  Corrected: What errors during loading for 234567?
+  Confidence: 0.0
+---
+
+=== Query 187: List validation issues for 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: List validation issues for 123456
+  Corrected: List validation issues for 123456
+  Confidence: 0.0
+---
+
+=== Query 188: Show validation errors for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: Show validation errors for 234567
+  Corrected: Show validation errors for 234567
+  Confidence: 0.0
+---
+
+=== Query 189: What validation problems for 345678? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: What validation problems for 345678?
+  Corrected: What validation problems for 345678?
+  Confidence: 0.0
+---
+
+=== Query 190: Show validation issues for 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: Show validation issues for 456789
+  Corrected: Show validation issues for 456789
+  Confidence: 0.0
+---
+
+=== Query 191: What validation errors in 567890? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: What validation errors in 567890?
+  Corrected: What validation errors in 567890?
+  Confidence: 0.0
+---
+
+=== Query 192: Get validation problems for 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: Get validation problems for 678901
+  Corrected: Get validation problems for 678901
+  Confidence: 0.0
+---
+
+=== Query 193: Show validation failures for 789012 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: Show validation failures for 789012
+  Corrected: Show validation failures for 789012
+  Confidence: 0.0
+---
+
+=== Query 194: List validation errors for 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: List validation errors for 890123
+  Corrected: List validation errors for 890123
+  Confidence: 0.0
+---
+
+=== Query 195: What validation issues for 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: What validation issues for 123456?
+  Corrected: What validation issues for 123456?
+  Confidence: 0.0
+---
+
+=== Query 196: Show validation problems for 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: Show validation problems for 234567
+  Corrected: Show validation problems for 234567
+  Confidence: 0.0
+---
+
+=== Query 197: Show me contract details and failed parts for 123456 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '123456'
+Spell Corrections:
+  Original: Show me contract details and failed parts for 123456
+  Corrected: Show me contract details and failed parts for 123456
+  Confidence: 0.0
+---
+
+=== Query 198: What's the effective date and part errors for 234567? ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    ERROR_COLUMN
+  - PASRT_NUMEBR
+  
+Filter Entities (2):
+  - AWARD_NUMBER = '234567'
+  - INVOICE_PART_NUMBER = 'ERRORS'
+Spell Corrections:
+  Original: What's the effective date and part errors for 234567?
+  Corrected: What's the effective date and part errors for 234567?
+  Confidence: 0.0
+---
+
+=== Query 199: List all parts and customer info for contract 345678 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    LINE_NO
+  - INVOICE_PART_NUMBER
+  
+Filter Entities (1):
+  - LOADED_CP_NUMBER = '345678'
+Spell Corrections:
+  Original: List all parts and customer info for contract 345678
+  Corrected: List all parts and customer info for contract 345678
+  Confidence: 0.0
+---
+
+=== Query 200: Show contract info and failed part for 456789 ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (0):
+Spell Corrections:
+  Original: Show contract info and failed part for 456789
+  Corrected: Show contract info and failed part for 456789
+  Confidence: 0.0
+---
+
+=== Query 201: Get customer name and parts errors for 567890 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '567890'
+Spell Corrections:
+  Original: Get customer name and parts errors for 567890
+  Corrected: Get customer name and parts errors for 567890
+  Confidence: 0.0
+---
+
+=== Query 202: Show contract details and part issues for 678901 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    PASRT_NUMEBR
+  - ERROR_COLUMN
+  - LAODED_CP_NUMBER
+  - REASON
+  
+Filter Entities (3):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '678901'
+  - INVOICE_PART_NUMBER = 'ISSUES'
+Spell Corrections:
+  Original: Show contract details and part issues for 678901
+  Corrected: Show contract details and part issues for 678901
+  Confidence: 0.0
+---
+
+=== Query 203: What effective date and failed parts for 789012? ===
+Action Type: parts_failed_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    PASRT_NUMEBR
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '789012'
+Spell Corrections:
+  Original: What effective date and failed parts for 789012?
+  Corrected: What effective date and failed parts for 789012?
+  Confidence: 0.0
+---
+
+=== Query 204: List contract info and error parts for 890123 ===
+Action Type: parts_by_contract_number
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    ERROR_COLUMN
+  
+Filter Entities (1):
+  - LAODED_CP_NUMBER = '890123'
+Spell Corrections:
+  Original: List contract info and error parts for 890123
+  Corrected: List contract info and error parts for 890123
+  Confidence: 0.0
+---
+
+=== Query 205: tell me about contract 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: tell me about contract 123456
+  Corrected: tell me about contract 123456
+  Confidence: 0.0
+---
+
+=== Query 206: i need info on 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: i need info on 234567
+  Corrected: i need info on 234567
+  Confidence: 0.0
+---
+
+=== Query 207: can you show me 345678 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: can you show me 345678
+  Corrected: can you show me 345678
+  Confidence: 0.0
+---
+
+=== Query 208: what do you know about contract 456789 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: what do you know about contract 456789
+  Corrected: what do you know about contract 456789
+  Confidence: 0.0
+---
+
+=== Query 209: give me details for 567890 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: give me details for 567890
+  Corrected: give me details for 567890
+  Confidence: 0.0
+---
+
+=== Query 210: i want to see 678901 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: i want to see 678901
+  Corrected: i want to see 678901
+  Confidence: 0.0
+---
+
+=== Query 211: please show 789012 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: please show 789012
+  Corrected: please show 789012
+  Confidence: 0.0
+---
+
+=== Query 212: can i get info on 890123 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (2):
+  - 
+    CONTRACT_NAME
+  - CUSTOMER_NAME
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: can i get info on 890123
+  Corrected: can i get info on 890123
+  Confidence: 0.0
+---
+
+=== Query 213: help me with contract 123456 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: help me with contract 123456
+  Corrected: help me with contract 123456
+  Confidence: 0.0
+---
+
+=== Query 214: i need help with 234567 ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: i need help with 234567
+  Corrected: i need help with 234567
+  Confidence: 0.0
+---
+
+=== Query 215: whats up with 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: whats up with 123456?
+  Corrected: whats up with 123456?
+  Confidence: 0.0
+---
+
+=== Query 216: hows 234567 looking? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: hows 234567 looking?
+  Corrected: hows 234567 looking?
+  Confidence: 0.0
+---
+
+=== Query 217: anything wrong with 345678? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '345678'
+Spell Corrections:
+  Original: anything wrong with 345678?
+  Corrected: anything wrong with 345678?
+  Confidence: 0.0
+---
+
+=== Query 218: is 456789 ok? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '456789'
+Spell Corrections:
+  Original: is 456789 ok?
+  Corrected: is 456789 ok?
+  Confidence: 0.0
+---
+
+=== Query 219: problems with 567890? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '567890'
+Spell Corrections:
+  Original: problems with 567890?
+  Corrected: problems with 567890?
+  Confidence: 0.0
+---
+
+=== Query 220: issues with 678901? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (2):
+  - STATUS = 'FAILED'
+  - AWARD_NUMBER = '678901'
+Spell Corrections:
+  Original: issues with 678901?
+  Corrected: issues with 678901?
+  Confidence: 0.0
+---
+
+=== Query 221: troubles with 789012? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '789012'
+Spell Corrections:
+  Original: troubles with 789012?
+  Corrected: troubles with 789012?
+  Confidence: 0.0
+---
+
+=== Query 222: concerns about 890123? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '890123'
+Spell Corrections:
+  Original: concerns about 890123?
+  Corrected: concerns about 890123?
+  Confidence: 0.0
+---
+
+=== Query 223: status on 123456? ===
+Action Type: contracts_by_contractnumber
+Query Type: CONTRACTS
+Display Entities (1):
+  - 
+    STATUS
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '123456'
+Spell Corrections:
+  Original: status on 123456?
+  Corrected: status on 123456?
+  Confidence: 0.0
+---
+
+=== Query 224: update on 234567? ===
+Action Type: update_contract
+Query Type: CONTRACTS
+Display Entities (4):
+  - 
+    CONTRACT_NAME
+  - STATUS
+  - EFFECTIVE_DATE
+  - EXPIRATION_DATE
+  
+Filter Entities (1):
+  - AWARD_NUMBER = '234567'
+Spell Corrections:
+  Original: update on 234567?
+  Corrected: update on 234567?
+  Confidence: 0.0
+---
+
+=== TEST COMPLETED ===

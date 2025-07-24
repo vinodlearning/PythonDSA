@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+          xmlns:f="http://java.sun.com/jsf/core">
+    <af:panelGroupLayout id="pgl1" layout="vertical">
+        <af:panelStretchLayout id="psl2" startWidth="0px" endWidth="30%" topHeight="0px" bottomHeight="0px"
+                               styleClass="AFStretchWidth"
+                               partialTriggers="showCustomersBtn totalPartsBtn activeContractsBtn expiringSoonBtn awardRepsBtn helpBtn createContractBtn">
+            <f:facet name="start">
+                <af:button text="button 1" id="b2"/>
+            </f:facet>
+            <f:facet name="end">
+                <af:panelBox text="📊 Quick Stats" id="statsPanel" inlineStyle="width:250px; margin:10px;">
+                    <af:panelGroupLayout id="statsList" layout="vertical">
+                        <af:outputText value="System Overview:" id="statsHeader"
+                                       inlineStyle="font-weight:bold; margin-bottom:10px;"/>
+                        <af:panelGroupLayout id="stat1" layout="horizontal">
+                            <af:outputText value="📋 Total Contracts: " id="contractLabel"
+                                           inlineStyle="font-size:12px;"/>
+                            <af:outputText value="#{bindings.ContractsView1.estimatedRowCount}" id="contractCount"
+                                           inlineStyle="font-size:12px; font-weight:bold; color:#2196f3;"/>
+                        </af:panelGroupLayout>
+                        <af:panelGroupLayout id="stat2" layout="horizontal">
+                            <af:outputText value="📦 Total Parts: " id="partsLabel" inlineStyle="font-size:12px;"/>
+                            <af:outputText value="#{bindings.AwardsFinalPartsView1.estimatedRowCount}" id="partsCount"
+                                           inlineStyle="font-size:12px; font-weight:bold; color:#e5f6ed;"/>
+                        </af:panelGroupLayout>
+                        <af:separator id="sep1"/>
+                        <af:outputText value="🚀 Features:" id="featuresHeader"
+                                       inlineStyle="font-weight:bold; margin:10px 0 5px 0;"/>
+                        <af:outputText value="✓ Real-time data access" id="feature2"
+                                       inlineStyle="font-size:11px; color:#666;"/>
+                        <af:outputText value="✓ Smart contract search" id="feature3"
+                                       inlineStyle="font-size:11px; color:#666;"/>
+                        <af:outputText value="✓ Parts tracking" id="feature4"
+                                       inlineStyle="font-size:11px; color:#666;"/>
+                        <af:outputText value="✓ Status monitoring" id="feature5"
+                                       inlineStyle="font-size:11px; color:#666;"/>
+                    </af:panelGroupLayout>
+                </af:panelBox>
+            </f:facet>
+            <f:facet name="top"/>
+            <f:facet name="bottom"/>
+            <f:facet name="center">
+                <af:panelGroupLayout id="pgl19" layout="vertical" styleClass="AFStretchWidth"
+                                     partialTriggers="userInputField sendButton">
+                    <af:panelHeader text="  " id="ph2" styleClass="AFInstructionText">
+                        <f:facet name="context"/>
+                        <f:facet name="toolbar"/>
+                        <f:facet name="menuBar"/>
+                        <f:facet name="legend"/>
+                        <f:facet name="info"/>
+                        <af:panelGroupLayout id="pgl2" layout="horizontal" styleClass="AFStretchWidth" inlineStyle="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                  padding: 20px;
+                                  border-radius: 12px;
+                                  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+                                  margin-bottom: 20px;">
+                            <af:panelGroupLayout id="headerContent" layout="horizontal" styleClass="AFStretchWidth">
+                                <!-- AI Icon with modern styling -->
+                                <af:outputFormatted value="🤖" id="aiIcon" inlineStyle="font-size: 32px;
+                                        background: rgba(255,255,255,0.2);
+                                        padding: 12px;
+                                        border-radius: 50%;
+                                        margin-right: 16px;
+                                        border: 1px solid rgba(255,255,255,0.3);
+                                        display: inline-block;
+                                        vertical-align: middle;"/>
+                                <!-- Header text with modern typography -->
+                                <af:panelGroupLayout id="textContent" layout="vertical"
+                                                     inlineStyle="display: inline-block; vertical-align: middle;">
+                                    <af:outputFormatted value="#{pageFlowScope.bcctContractManagementNLPBean.heading}"
+                                                        id="mainTitle"/>
+                                    <af:outputFormatted value="#{pageFlowScope.bcctContractManagementNLPBean.heading1}"
+                                                        id="subtitle"/>
+                                </af:panelGroupLayout>
+                                <!-- Spacer -->
+                                <af:spacer width="20" height="1"/>
+                                <!-- Action buttons with modern styling -->
+                                <af:panelGroupLayout id="actionButtons" layout="horizontal"
+                                                     inlineStyle="float: right; display: inline-block; vertical-align: middle;">
+                                    <af:button text="✨ New Chat" id="clearButton"
+                                                      action="#{pageFlowScope.bcctContractManagementNLPBean.clearChat}"
+                                                      partialSubmit="true" partialTriggers="clearButton" inlineStyle="background: rgba(255,255,255,0.2);
+                                           color: #ffffff;
+                                           border: 1px solid rgba(255,255,255,0.3);
+                                           padding: 10px 20px;
+                                           border-radius: 25px;
+                                           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                                           font-size: 14px;
+                                           font-weight: 500;
+                                           cursor: pointer;
+                                           box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                                           margin-right: 12px;">
+                                       
+                                    </af:button>
+                                    <!--<af:commandButton text="📋 History" id="historyButton"
+                              partialSubmit="true"
+                              inlineStyle="background: transparent;
+                                           color: rgba(255,255,255,0.8);
+                                           border: 1px solid rgba(255,255,255,0.3);
+                                           padding: 10px 16px;
+                                           border-radius: 25px;
+                                           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                                           font-size: 14px;
+                                           font-weight: 500;
+                                           cursor: pointer;"/>-->
+                                </af:panelGroupLayout>
+                            </af:panelGroupLayout>
+                        </af:panelGroupLayout>
+                        <!-- Modified Chat Response Area with ADF-compatible styling -->
+                        <af:panelGroupLayout id="chatContainer" layout="vertical"
+                                             inlineStyle="overflow-y:hidden; padding:15px; background-color:#f8f9fa; height:auto;"
+                                             partialTriggers="sendButton clearButton" styleClass="StretchWidth">
+                            <af:iterator id="i2" value="#{pageFlowScope.bcctContractManagementNLPBean.chatHistory}"
+                                         var="msg">
+                                <af:panelGroupLayout id="pgl5" layout="vertical"
+                                                     styleClass="#{msg.bot ? 'bot-message-container' : 'user-message-container'}">
+                                    <!-- Bot Message -->
+                                    <af:panelGroupLayout id="botMessageWrapper" layout="horizontal"
+                                                         rendered="#{msg.bot}" styleClass="bot-message-wrapper"
+                                                         inlineStyle="width:500px!important;">
+                                        <af:panelGroupLayout id="botAvatarContainer" layout="vertical"
+                                                             inlineStyle="margin-right:8px; width:35px;">
+                                            <af:panelGroupLayout id="botAvatar" layout="horizontal"
+                                                                 styleClass="bot-avatar-small"
+                                                                 inlineStyle="width:28px; height:28px; margin-bottom:2px; text-align:center; line-height:28px;">
+                                                <af:outputText value="🤖" id="botIcon" inlineStyle="font-size:14px;"/>
+                                            </af:panelGroupLayout>
+                                            <af:outputText value="#{msg.formattedTime}" id="botTime"
+                                                           inlineStyle="font-size:10px; color:#999; text-align:center;"
+                                                           styleClass="AFStretchWidth"/>
+                                        </af:panelGroupLayout>
+                                        <af:panelGroupLayout id="botBubble" layout="vertical"
+                                                             styleClass="compact-bot-bubble">
+                                            <af:outputFormatted value="#{msg.message}" id="botMessageText"
+                                                                styleClass="compact-bot-text"/>
+                                        </af:panelGroupLayout>
+                                    </af:panelGroupLayout>
+                                    <!-- User Message -->
+                                    <af:panelGroupLayout id="userMessageWrapper" layout="horizontal"
+                                                         rendered="#{!msg.bot}" styleClass="user-message-wrapper"
+                                                         inlineStyle="margin-left:25%; text-align:right;">
+                                        <af:panelGroupLayout id="userBubble" layout="vertical"
+                                                             styleClass="compact-user-bubble"
+                                                             inlineStyle="width:auto; max-width:280px; margin-right:8px;width:280px!important;">
+                                            <af:outputFormatted value="#{msg.message}" id="userMessageText"
+                                                                styleClass="compact-user-text"
+                                                                inlineStyle="white-space:pre-line; line-height:1.3; color:#fff; font-size:12px; margin:0; text-align:right;width:280px;"/>
+                                        </af:panelGroupLayout>
+                                        <af:panelGroupLayout id="userAvatarContainer" layout="vertical"
+                                                             inlineStyle="width:35px;">
+                                            <af:panelGroupLayout id="userAvatar" layout="horizontal"
+                                                                 styleClass="user-avatar-small"
+                                                                 inlineStyle="width:28px; height:28px; margin-bottom:2px; text-align:center; line-height:28px;">
+                                                <af:outputText value="👤" id="userIcon"
+                                                               inlineStyle="font-size:12px; color:#fff;"/>
+                                            </af:panelGroupLayout>
+                                            <af:outputText value="#{msg.formattedTime}" id="userTime"
+                                                           inlineStyle="font-size:9px; color:#aaa; text-align:center;"
+                                                           styleClass="AFStretchWidth"/>
+                                        </af:panelGroupLayout>
+                                    </af:panelGroupLayout>
+                                </af:panelGroupLayout>
+                            </af:iterator>
+                        </af:panelGroupLayout>
+                        <af:panelGroupLayout id="inputArea" layout="horizontal"
+                                             inlineStyle="margin-top:8px; padding:8px 12px; background-color:#fff; border-radius:25px; border:1px solid #e0e0e0;"
+                                             styleClass="AFStretchWidth">
+                            <af:inputText label="" id="userInputField"
+              value="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+              styleClass="AFStretchWidth"
+              inlineStyle="margin-right:8px; padding:12px 16px; border:1px solid #ccc; border-radius:25px; font-size:14px; background-color:#fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"
+              placeholder="Type your message..." 
+              autoSubmit="false"
+              contentStyle="height:100px;" 
+              rows="50">
+    <af:clientListener method="handleKey" type="keyPress"/>
+    <af:serverListener type="handleKey"
+                       method="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"/>
+</af:inputText>
+
+                            <af:button text="Send" id="sendButton"
+                                       action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                       styleClass="compact-send-button" partialSubmit="true"
+                                       inlineStyle="padding:6px 16px; font-size:11px; border-radius:18px; border:none; cursor:pointer;">
+                                <af:resetActionListener/>
+                            </af:button>
+                        </af:panelGroupLayout>
+                        <af:panelGroupLayout id="pgl21" layout="vertical" styleClass="AFStretchWidth" 
+                     inlineStyle="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                  padding: 20px;
+                                  border-radius: 12px;
+                                  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+                                  margin-bottom: 20px;">
+    
+    <!-- Header Section -->
+    
+    <!-- Quick Actions Section -->
+                            <af:panelGroupLayout id="quickActions" layout="horizontal"
+                                                 inlineStyle="margin-top: 10px; flex-wrap: wrap;">
+                                <af:button text="📋 Recent Contracts" id="showCustomersBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonRecentContracts}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                                <af:button text="📦 Parts Count" id="totalPartsBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonPartsCount}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                                <af:button text="❌ Failed Contracts" id="activeContractsBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonFailedContracts}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                                <af:button text="⏰ Expiring Soon" id="expiringSoonBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonExpiringSoon}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                                <af:button text="👨‍💼 Award Reps" id="awardRepsBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonAwardReps}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                                <af:button text="❓ Help" id="helpBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonHelpPrompt}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                                <af:button text="📝 Create Contract" id="createContractBtn"
+                                           action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInputAction}"
+                                           inlineStyle="background: rgba(76,175,80,0.2);                                      border: 1px solid rgba(76,175,80,0.5);                                      padding: 4px 8px;                                      border-radius: 12px;                                      margin: 2px;                                      font-size: 11px;                                     color: #ffffff;font-weight:normal;">
+                                    <af:setPropertyListener from="#{pageFlowScope.bcctContractManagementNLPBean.buttonCreateContract}"
+                                                            to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                            type="action"/>
+                                </af:button>
+                            </af:panelGroupLayout>
+                        </af:panelGroupLayout>
+
+                        <!-- Example Queries -->
+                        <af:panelBox text="Example Queries" id="examplesBox" showDisclosure="true" disclosed="false"
+                                     inlineStyle="margin-top:10px;" rendered="false">
+                            <af:panelGroupLayout id="examples" layout="vertical">
+                                <af:outputText value="Try these example queries:" id="exampleHeader"
+                                               inlineStyle="font-weight:bold; margin-bottom:10px;"/>
+                                <af:panelGroupLayout id="examplesList" layout="vertical"
+                                                     inlineStyle="margin-left:15px;">
+                                    <af:commandLink text="• Show contract ABC123" id="example1"
+                                                    action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"
+                                                    inlineStyle="color:#007cba; text-decoration:none; margin:2px 0;">
+                                        <af:setPropertyListener from="Show contract ABC123"
+                                                                to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                                type="action"/>
+                                    </af:commandLink>
+                                    <af:commandLink text="• How many parts for Boeing" id="example2"
+                                                    action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"
+                                                    inlineStyle="color:#007cba; text-decoration:none; margin:2px 0;">
+                                        <af:setPropertyListener from="How many parts for Boeing"
+                                                                to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                                type="action"/>
+                                    </af:commandLink>
+                                    <af:commandLink text="• Status of contract XYZ456" id="example3"
+                                                    action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"
+                                                    inlineStyle="color:#007cba; text-decoration:none; margin:2px 0;">
+                                        <af:setPropertyListener from="Status of contract XYZ456"
+                                                                to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                                type="action"/>
+                                    </af:commandLink>
+                                    <af:commandLink text="• Lockheed contract information" id="example4"
+                                                    action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"
+                                                    inlineStyle="color:#007cba; text-decoration:none; margin:2px 0;">
+                                        <af:setPropertyListener from="Lockheed contract information"
+                                                                to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                                type="action"/>
+                                    </af:commandLink>
+                                    <af:link text="• Show expired contracts" id="example5"
+                                             action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"
+                                             inlineStyle="color:#007cba; text-decoration:none; margin:2px 0;">
+                                        <af:setPropertyListener from="Show expired contracts"
+                                                                to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                                type="action"/>
+                                    </af:link>
+                                    <af:commandLink text="• Create a new contract" id="example6"
+                                                    action="#{pageFlowScope.bcctContractManagementNLPBean.processUserInput}"
+                                                    inlineStyle="color:#2e7d32; text-decoration:none; margin:2px 0; font-weight:bold;">
+                                        <af:setPropertyListener from="create contract"
+                                                                to="#{pageFlowScope.bcctContractManagementNLPBean.userInput}"
+                                                                type="action"/>
+                                    </af:commandLink>
+                                </af:panelGroupLayout>
+                            </af:panelGroupLayout>
+                        </af:panelBox>
+                    </af:panelHeader>
+                    <f:facet name="separator"/>
+                </af:panelGroupLayout>
+            </f:facet>
+        </af:panelStretchLayout>
+    </af:panelGroupLayout>
+    <af:resource type="javascript" source="/js/balayya.js"/>
+</jsp:root>
